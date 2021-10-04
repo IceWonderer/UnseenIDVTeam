@@ -1,0 +1,31 @@
+body,
+html {
+    height: 100%;
+    background-image: url("../img/background.jpg");
+    background-size: cover;
+}
+
+.left {
+    height: 200px;
+    text-align: center;
+}
+
+.right {
+    background-color: #729CEF;
+    height: 650px;
+    width: 185vh;
+    text-align: center;
+    border-radius: 25px;
+}
+
+.login {
+    height: 650px;
+    width: 200px;
+    margin-left: 40px;
+    background-color: #232324;
+}
+
+.greeting {
+    height: 100px;
+    text-align: center;
+}
