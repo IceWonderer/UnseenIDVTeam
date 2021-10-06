@@ -1,127 +1,97 @@
 /* font-family: 'Raleway', sans-serif;
 font-family: 'Syncopate', sans-serif; */
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #F2F2F3;
+    position: relative;
+    width: 1440px;
+    height: auto;
+}
+.navigation-container {
+    width: 100%;
+    height: 109px;
+}
+.nav-logo {
+    width: 145px;
+    height: 109px;
+    background-image: url("../img/logo.svg");
+    background-position: center;
+    background-size: cover;
+    margin-left: 64px;
+    float: left;
+}
+.nav-logo:hover{
+    margin-top: -5px;
+    transition: 0.3s;
+}
+.navigation-box, .search-box {
+    width: 590px;
+    height: 35px;
+    margin-top: 74px;
+    float: left;
+}
 
-/*/////////////Landing page //////////////*/
-
-.left{
-    background-color: white;
-    height: 100vh;
-    width: 55%;
-    float: left;
-    
-}
-.right{
-    background-color: teal;
-    height: 100vh;
-    width: 45%;
-    float: left;
-}
-.navigation{
-    margin-left: 280px;
-}
-.navigation a{
-    float: left;
-    display: block;
-    color: black;
-    text-align: center;
-    padding: 15px 25px;
-    text-decoration: none;
-    font-size: 20px;
-    
-}
-.navigation a:hover{
-    background-color: #ddd;
-    color: black
-   
-}
-.header{
-    width: 60%;
-    height: 20vh;
-    margin-left: 140px;
-    margin-top: 100px;
-}
-h2{
-    font-size: 25px;
-    font-weight: 200;
-}
-.reg-btn{
-    height: 38px;
-    width: 150px;
-    background-color: rgb(92, 125, 233);
-    border-radius: 10px;
-    float: left;
-    color: white;
-    text-align: center;
-}
-.login-btn{
-    height: 38px;
-    width: 150px;
-    background-color: rgb(6, 8, 14);
-    border-radius: 10px;
-    float: left;
-    margin-left: 50px;
-    color: steelblue;
-    text-align: center;
-}
-.mow{
-    margin-top: 10px;
-    text-align: center;
-}
-h3{
-    font-size: 20px;
-    text-align: center;
-    margin-top: 5px;
-}
-.mow{
-    margin-top: 100px;
-}
-h4{
-    font-size: 25px;
-    text-align: center;
-}
-.search{  
+.search-box {
+    width: 608px;
     float: right;
-    margin-right: 100px;
-    margin-top: 50px;
 }
-.search input[type=text] {
+
+.nav-buttons li {
+    list-style-type: none;
+    font-family: 'Syncopate', sans-serif;
+    float: left;
+    color: #232324;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 10px;
+    margin-left: 100px;
+}
+/* #home-button {
+    margin-left: 90px;
+} */
+.search-bar {
+    width: 186px;
     height: 30px;
     border-radius: 10px;
-    text-align: left;
+    float: right;
+    margin-right: 65px;
+}
+.search {
+    border: none;
+    width: 90%;
+    height: 90%;
+    padding: 1.7px 10px;
+    border-radius: 38px;
+    background-color: #F2F2F3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-size: 16px;
+    font-family: 'Nunito Sans', sans-serif;
+    color: #232322;
+    outline: none;
+}
+.search::placeholder {
+    color: #232322;
 }
 
-.weekOverlay{
-    background-color: rgba(245, 116, 57,0.7);
-    height: 40vh;
-    width: 100%;
-    float: left;
-    margin-top: -40vh;
-}
-.top-rec{
-    background-color: rgb(173, 173, 173);
-    height: 60vh;
-    width: 100%;
-    float: left;  
-    position: relative;
-}
-.top{
-    width: 150px;
-    height: 200px;
-    background-color: teal;
-    float: left;
-    border-radius: 10px;
-    margin-left: 50px;
-    margin-top: 130px;
-}
-.first{
-    margin-left: 280px;
-}
 
-.footer{
-    height: 20vh;
+.footer {
     width: 100%;
-    background-color: teal;
-    float: left;
+    height: 63px;
 }
-
-/*////////////////////////////////////////*/
+.media {
+    height: 100%;
+    width: 364px;
+    float: right;
+}
+.media-icon {
+    float: left;
+    cursor: pointer;
+    margin-left: 57px;
+    padding-top: 10px;
+}
+.twitter {
+    margin-left: 0px;
+}
