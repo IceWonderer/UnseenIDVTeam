@@ -2,11 +2,13 @@
     width: 100%;
     height: 100px;
 }
-.title-pg{
+
+.title-pg {
     width: 100%;
     height: 50px;
 }
-.title-pg h1{
+
+.title-pg h1 {
     font-family: 'Syncopate', sans-serif;
     font-size: 24px;
     font-weight: bold;
@@ -14,21 +16,23 @@
     color: #232324;
 }
 
-.background-box{
+.background-box {
     width: 100%;
     height: 882px;
     /* background-color: #0D1113; */
-    background-image: linear-gradient(to right, black , black,rgba(0,0,0,0.55));
+    background-image: linear-gradient(to right, black, black, rgba(0, 0, 0, 0.55));
     float: left;
 }
-.left-side{
+
+.left-side {
     width: 50%;
     height: 100%;
     float: left;
 }
+
 .preview-img {
     width: 564px;
-    height: 810px;
+    height: 100%;
     background-image: url("../img/my-list-pg-img/shang-chi\ preview.png");
     background-position: center;
     background-size: cover;
@@ -38,30 +42,35 @@
 .movie-info {
     width: 622px;
     height: 270px;
-    background-color: rgba(35,35,36,0.6);
+    background-color: rgba(35, 35, 36, 0.6);
     backdrop-filter: blur(12px);
     margin-top: -398px;
     border-top-right-radius: 20px;
     border-bottom-right-radius: 20px;
 }
+
 .movie-info-container {
     height: 100%;
     width: 500px;
     margin-left: 120px;
     padding-top: 10px;
 }
-.movie-info h2, .movie-info h3{
+
+.movie-info h2,
+.movie-info h3 {
     font-family: 'Raleway', sans-serif;
     font-size: 18px;
     font-weight: normal;
     color: #F2F2F3;
 }
+
 .movie-info h3 {
     float: left;
     margin-left: 30px;
     margin-top: 28px;
 }
-.movie-info h1{
+
+.movie-info h1 {
     font-family: 'Raleway', sans-serif;
     font-size: 48px;
     font-weight: bolder;
@@ -76,21 +85,23 @@
     margin-top: 28px;
 }
 
-.movie-length-grey{
+.movie-length-grey {
     width: 386px;
     height: 7px;
-    background-color: rgba(35,35,36,0.6);
+    background-color: rgba(35, 35, 36, 0.6);
     border-radius: 26.52px;
     margin-top: 120px;
 }
-.movie-length-blue{
+
+.movie-length-blue {
     width: 146px;
     height: 100%;
     background-color: #729CEF;
     border-radius: 26.52px;
 }
 
-.continue-button, .see-more-button {
+.continue-button,
+.see-more-button {
     width: 174px;
     height: 30px;
     background-color: #729CEF;
@@ -105,6 +116,7 @@
     float: left;
     cursor: pointer;
 }
+
 .see-more-button {
     background-color: #232324;
     color: #729CEF;
@@ -128,6 +140,7 @@
     margin-top: 40px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
+
 .movie-cover {
     width: 122px;
     height: 100%;
@@ -136,22 +149,26 @@
     background-color: crimson;
     float: left;
 }
+
 .movie-card-info-box {
     width: 508px;
     height: 100%;
     float: right;
 }
-.movie-card-info-box h1{
+
+.movie-card-info-box h1 {
     font-family: 'Raleway', sans-serif;
     font-size: 24px;
     font-weight: bolder;
     float: left;
     color: #F2F2F3;
 }
+
 .star2 {
     margin-top: 18px;
 }
-.movie-card-info-box h3{
+
+.movie-card-info-box h3 {
     font-family: 'Raleway', sans-serif;
     font-size: 18px;
     font-weight: lighter;
@@ -161,11 +178,12 @@
     margin-top: 18px;
 }
 
-.movie-card-length{
+.movie-card-length {
     background-color: black;
     margin-top: 80px;
 }
-.remove-button{
+
+.remove-button {
     float: right;
     color: #729CEF;
     margin-right: 20px;
@@ -177,4 +195,19 @@
     font-weight: bold;
     color: #729CEF;
     cursor: pointer;
+}
+
+.footer {
+    width: 100%;
+    height: 180px;
+    background-color: rgba(210, 80, 7, 0.6);
+    backdrop-filter: blur(3px);
+    margin-top: 702px;
+}
+
+.media-icon {
+    float: left;
+    cursor: pointer;
+    padding-top: 10px;
+    margin-top: -100px;
 }
