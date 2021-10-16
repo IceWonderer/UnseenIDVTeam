@@ -5,22 +5,150 @@
 
 .welcome-info {
     width: 800px;
-    height: 370px;
+    height: 340px;
     float: left;
+    padding-top: 30px;
+}
+.welcome-message-box{
+    width: 600px;
+    height: 60px;
+    margin: 0 auto;
+    color: #232324;
+}
+.welcome-message-box h1{
+    font-family: 'Raleway', sans-serif;
+    font-size: 32px;
+    font-weight: lighter;
+}
+.reg-log-box{
+    width: 341px;
+    height: 139px;
+    margin-left: 100px;
+    margin-top: 20px;
+}
+.button {
+    width: 137px;
+    height: 53px;
+    background-color: #729CEF;
+    border-radius: 10px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    float: left;
+}
+.button li{
+    width: 100%;
+    list-style-type: none;
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 18px;
+
+}
+.log-button{
+    background-color: #232324;
+    
+}
+.log-button li{
+    margin-left: 45px;
+    color: #729CEF;
+}
+.reg-button li{
+    margin-left: 35px;
+    color: #F2F2F3;
+}
+.reg-button{
+    background-color: #729CEF;
+}
+.seperater-div{
+    width: 67px;
+    height: 100%;
+    float: left;
+}
+
+.MOTW-div{
+    width: 700px;
+    height: 78px;
+    margin-left: 100px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.MOTW-div h1, .MOTW-div h2{
+    font-family: 'Syncopate', sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    float: left;
+    color: #4D4A4F;
+}
+.MOTW-div h2{
+    color: #729CEF;
+    margin-left: 8px;
+    margin-top: 16.5px;
 }
 
 .header-img {
     height: 900px;
     width: 608px;
-    background-color: tomato;
+    background-image: url("../img/header-img.png");
+    background-position: center;
+    background-size: cover;
     float: right;
 }
 
 .movie-of-week-info {
-    height: 422px;
+    height: 450px;
     width: 100%;
     background-color: rgba(210, 80, 7, 0.6);
-    margin-top: -421px;
+    backdrop-filter: blur(40px);
+    margin-top: -460px;
+    padding-top: 10px;
+    position: relative;
+}
+.MOTW-title{
+    width: 1322px;
+    height: 90%;
+    margin-left: 118px;
+}
+.MOTW-title h1{
+    font-family: 'Syncopate', sans-serif;
+    font-size: 32px;
+    font-weight: bold;
+    color: #F2F2F3;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.MOTW-info-div{
+    width: 1218px;
+    height: 312.5px;
+    margin-top: 30px;
+    margin-left: 102px;
+}
+.MOTW-info-div h2{
+    font-family: 'Raleway', sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    color: #232324;
+}
+.watch-add-box{
+    width: 350px;
+    height: 53px;
+    background-color: crimson;
+    margin-left: 615px;
+    margin-top: -50px;
+}
+.watch-add-button{
+    width: 166px;
+    height: 100%;
+    background-color: rgba(35, 35, 36, 0.6);
+    border-radius: 10px;
+}
+
+.movie-description-box{
+    width: 600px;
+    height: 110px;
+    margin-top: 100px;
+}
+.movie-description-box h2{
+    font-family: 'Raleway', sans-serif;
+    font-size: 24px;
+    font-weight: normal;
+    color: #232324;
 }
 
 .top-recommendations {

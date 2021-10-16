@@ -27,6 +27,9 @@
     <script src="js/index.js"></script>
     <script src="js/data.js"></script>
 
+      <!--bootstrap-->
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.min.js" integrity="sha384-skAcpIdS7UcVUC05LJ9Dxay8AXcDYfBJqt1CJ85S/CFujBsIzCIv+l9liuYLaMQ/" crossorigin="anonymous"></script>
+
     <!--google fonts link-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -39,18 +42,18 @@
 
     <div class="container-fluid">
 
-        <div class="header-box">
+        <div class="header-box row">
 
-        <div class="navigation-container">
+        <div class="navigation-container row">
            <a href="./index.html"><div class="nav-logo"></div></a>
 
-              <div class="navigation-box">
+              <div class="navigation-box col-lg-12">
                   <!-- <div id="active-filter-box"></div> -->
                   
                 <div class="nav-buttons">
                  <a href="./index.html" id="home-button"><li>Home</li></a>
                  <a href="./pages/library.html"><li>Library</li></a>
-                 <a href="./pages/my_list.html"><li>My List</li></a>
+                <a href="./pages/my_list.html"><li>My List</li></a>
                 </div><!--nav-buttons--> 
             </div><!--navigation-box-->
     <div class="header-img">
@@ -67,14 +70,41 @@
 
 
         <div class="welcome-info">
+            <div class="welcome-message-box"><h1>Thank you for choosing UnSEEN</h1></div>
+            <div class="reg-log-box">
+               <a href=""> <div class="reg-button button"><li>Register</li></div> </a>
+               <div class="seperater-div"></div>
+               <a href=""> <div class="log-button button"><li>Login</li></div> </a>
+            </div><!--reg-log-box-->
+
+            <div class="MOTW-div">
+                <h1>Movie of the</h1>
+                <h2>week</h2>
+            </div><!--MOTW-div-->
         </div><!--welcome-info-->
 
     </div><!--header-box-->
 
-<div class="movie-of-week-info">
+<div class="movie-of-week-info row">
+    <div class="MOTW-title"><h1>shang-chi and the Legend of the Ten Rings</h1>
+        <div class="MOTW-info-div">
+         <h2>Action, Adventure, Fantasy</h2>
+
+         <div class="watch-add-box">
+             <div class="watch-add-button"></div>
+             <div class="watch-add-button add-button"></div>
+         </div><!--watch-add-box-->
+
+         <div class="movie-description-box">
+             <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Semper vel proin purus ac amet. Etiam pellentesque malesuada vestibulum quis aenean maecenas blandit. </h2> </div>
+
+        </div><!--MOTW-info-div-->
+        
+    </div><!--MOTW-title-->
+    
         </div><!--movie-of-week-info-->
 
-        <div class="top-recommendations">
+        <div class="top-recommendations row">
 
             <h1>Top Recommendations</h1>
 
