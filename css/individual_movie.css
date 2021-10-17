@@ -13,7 +13,7 @@
     background-color: rgba(210, 80, 7, 0.6);
     backdrop-filter: blur(20px);
     margin-top: -96px;
-    position:absolute;
+    position:absolute ;
 }
 
 .movie-cover-box{
@@ -36,11 +36,98 @@
     height: 100%;
     float: left;
 }
+.watch-now-button{
+    width: 243px;
+    height: 38px;
+    padding-top: 15px;
+    background-color: rgba(35, 35, 36, 0.6);
+    backdrop-filter: blur(30px);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin-top: 330px;
+    margin-left: 85px;
+    border-radius: 15px;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    color: #F2F2F3;
+    position:absolute;
+    cursor: pointer;
+}
+.watch-add-icon{
+    float: right;
+    margin-right: 30px;
+    margin-top: -4px;
+}
 .title-div{
     width: 852px;
-    height: 68px;
-    background-color: rgba(35, 35, 36, 0.6);
-    backdrop-filter: blur(40px);
+    height: 48px;
+    background-color: rgba(35, 35, 36, 0.9);
+    backdrop-filter: blur(20px);
     border-radius: 35px;
     margin-top: -34px;
+    padding-top: 20px;
+    text-align: center;
+    color: #F2F2F3;
+    font-family: 'Syncopate', sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.main-movie-info-box{
+    width: 868px;
+    height: 323px;
+    margin-left: 425px;
+    margin-top: 70px;
+    position: absolute;
+}
+
+.trailer-add-box{
+    width: 350px;
+    height: 53px;
+    color: #F2F2F3;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+}
+.trailer-add-css{
+    width: 137px;
+    height: 68%;
+    padding-top: 13px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    float: left;
+    cursor: pointer;
+}
+.trailer-button{
+    background-color: #729CEF;
+}
+.add-button{
+    background-color: rgba(35, 35, 36, 0.6);
+    margin-left: 76px;
+}
+.watch-add-icon-white{
+    float: right;
+    margin-right: 10px;
+    margin-top: -2px;
+}
+
+.movie-desc{
+    width: 100%;
+    height: auto;
+    margin-top: 10px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 24px;
+    font-weight: normal;
+}
+
+table{
+    border-collapse: collapse;
+    width: 100%;
+    height: 100%;
+    text-align: left;
+    font-family: 'Raleway', sans-serif;
+    font-size: 24px;
 }

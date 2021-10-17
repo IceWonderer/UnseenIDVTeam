@@ -81,15 +81,6 @@
     width: 100%;
 }
 
-.footer {
-    width: 100%;
-    height: 35px;
-    background-color: rgba(210, 80, 7, 0.6);
-    padding-bottom: 150px;
-    position: absolute;
-    backdrop-filter: blur(3px);
-}
-
 .media-icon {
     margin-top: 50px;
 }
