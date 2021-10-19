@@ -1,3 +1,5 @@
+/* DESKTOP CSS */
+
 .emptyclass1 {
     width: 100%;
     height: 100px;
@@ -82,7 +84,7 @@
 .star-icon {
     float: left;
     margin-left: 44px;
-    margin-top: 28px;
+    margin-top: 24px;
 }
 
 .movie-length-grey {
@@ -103,7 +105,7 @@
 .continue-button,
 .see-more-button {
     width: 174px;
-    height: 30px;
+    height: 40px;
     background-color: #729CEF;
     border-radius: 20px;
     color: #F2F2F3;
@@ -128,6 +130,8 @@
     height: 100%;
     width: 50%;
     float: right;
+    overflow-x: hidden;
+    white-space: nowrap;
 }
 
 .movie-card {
@@ -162,10 +166,11 @@
     font-weight: bolder;
     float: left;
     color: #F2F2F3;
+    margin-top: 15px;
 }
 
 .star2 {
-    margin-top: 18px;
+    margin-top: 15px;
 }
 
 .movie-card-info-box h3 {
@@ -211,3 +216,449 @@
     padding-top: 10px;
     margin-top: -100px;
 }
+
+/* DESKTOP CSS */
+
+
+
+
+/* IPAD CSS */
+.search-icon-pd{
+    float: right;
+    cursor: pointer;
+}
+
+
+.emptyclass1-pd {
+    width: 100%;
+    height: 100px;
+}
+
+.title-pg-pd {
+    width: 100%;
+    height: 50px;
+}
+
+.title-pg-pd h1 {
+    font-family: 'Syncopate', sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    margin-left: 50px;
+    color: #232324;
+}
+
+.background-box-pd {
+    width: 1024px;
+    height: 1366px;
+    background-color: black;
+    float: left;
+}
+
+.left-side-pd {
+    width: 30%;
+    height: 40%;
+    float: left;
+    margin-left: 200px;
+}
+
+.preview-img-pd {
+    width: 564px;
+    height: 100%;
+    background-image: url("../img/my-list-pg-img/shang-chi\ preview.png");
+    background-position: center;
+    background-size: cover;
+    margin-left: 64px;
+}
+
+.movie-info-pd {
+    width: 622px;
+    height: 270px;
+    background-color: rgba(35, 35, 36, 0.6);
+    backdrop-filter: blur(12px);
+    margin-top: -320px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    margin-left: -200px;
+}
+
+.movie-info-container-pd {
+    height: 100%;
+    width: 500px;
+    margin-left: 120px;
+    padding-top:20px;
+}
+
+.movie-info-pd h2,
+.movie-info-pd h3 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    font-weight: normal;
+    color: #F2F2F3;
+}
+
+.movie-info-pd h3 {
+    float: left;
+    margin-left: 30px;
+    margin-top: 28px;
+}
+
+.movie-info-pd h1 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F2F2F3;
+    margin-top: 10px;
+    float: left;
+}
+
+.star-icon-pd {
+    float: left;
+    margin-left: 44px;
+    margin-top: 24px;
+}
+
+.movie-length-grey-pd {
+    width: 386px;
+    height: 7px;
+    background-color: rgba(35, 35, 36, 0.6);
+    border-radius: 26.52px;
+    margin-top: 120px;
+}
+
+.movie-length-blue-pd {
+    width: 146px;
+    height: 100%;
+    background-color: #729CEF;
+    border-radius: 26.52px;
+}
+
+.continue-button-pd,
+.see-more-button-pd {
+    width: 174px;
+    height: 40px;
+    background-color: #729CEF;
+    border-radius: 20px;
+    color: #F2F2F3;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    padding-top: 10px;
+    margin-top: 36px;
+    float: left;
+    cursor: pointer;
+}
+
+.see-more-button-pd {
+    background-color: #232324;
+    color: #729CEF;
+    margin-left: 70px;
+    width: 137px;
+}
+
+.right-side-pd {
+    height: 500px;
+    width: 100%;
+    float: left;
+    overflow-x: hidden;
+    white-space: nowrap;
+}
+
+.movie-card-pd {
+    width: 654px;
+    height: 130px;
+    background-color: rgba(35, 35, 36, 0.5);
+    border-radius: 20px;
+    margin-left: 260px;
+    margin-bottom: 40px;
+    margin-top: 40px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    cursor: pointer;
+}
+
+.movie-cover-pd {
+    width: 122px;
+    height: 100%;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    background-color: crimson;
+    float: left;
+}
+
+.movie-card-info-box-pd {
+    width: 508px;
+    height: 100%;
+    float: right;
+}
+
+
+.movie-card-info-box-pd h1 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 24px;
+    font-weight: bolder;
+    float: left;
+    color: #F2F2F3;
+    margin-top: 15px;
+}
+
+.star2-pd {
+    margin-top: 15px;
+}
+
+.movie-card-info-box-pd h3 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    font-weight: lighter;
+    color: #F2F2F3;
+    float: left;
+    margin-left: 30px;
+    margin-top: 18px;
+}
+
+.movie-card-length-pd {
+    background-color: #232324;
+    margin-top: 80px;
+}
+
+.remove-button-pd {
+    float: right;
+    color: #84a8f0;
+    margin-right: 20px;
+    margin-top: -25px;
+    height: 100%;
+    width: 57px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.footer-pd {
+    width: 100%;
+    height: 180px;
+    background-color: rgba(210, 80, 7, 0.6);
+    backdrop-filter: blur(3px);
+    margin-top: 702px;
+}
+
+.media-icon-pd {
+    float: left;
+    cursor: pointer;
+    padding-top: 10px;
+    margin-top: -100px;
+}
+/* IPAD CSS */
+
+
+
+
+
+/* IPHONE CSS */
+.my-list-page-iphone{
+    width: 414px;
+    height: auto;
+}
+.title-pg-mb {
+    width: 100%;
+    height: 50px;
+}
+
+.title-pg-mb h1 {
+    font-family: 'Syncopate', sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    margin-left: 120px;
+    color: #232324;
+}
+
+.background-box-mb {
+    width: 414px;
+    height: 896px;
+    background-color: black;
+    float: left;
+}
+
+.left-side-mb {
+    width: 30%;
+    height: 419.88px;
+    float: left;
+    margin-left: 50px;
+}
+
+.preview-img-mb {
+    width: 314px;
+    height: 100%;
+    background-image: url("../img/my-list-pg-img/shang-chi\ preview.png");
+    background-position: center;
+    background-size: cover;
+    
+}
+
+.movie-info-mb {
+    width: 390px;
+    height: 200px;
+    background-color: rgba(35, 35, 36, 0.6);
+    backdrop-filter: blur(12px);
+    margin-top: -210px;
+    border-radius: 20px;
+    margin-left: -40px;
+}
+
+.movie-info-container-mb {
+    height: 100%;
+    width: 500px;
+    margin-left: 60px;
+    padding-top:20px;
+}
+
+.movie-info-mb h2,
+.movie-info-mb h3 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    color: #F2F2F3;
+}
+
+.movie-info-mb h3 {
+    float: left;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+.movie-info-mb h1 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 30px;
+    font-weight: bolder;
+    color: #F2F2F3;
+    margin-top: 10px;
+    float: left;
+}
+
+.star-icon-mb {
+    float: left;
+    margin-left: 44px;
+    margin-top: 13px;
+    width: 9.68px;
+    height: 9.68px;
+}
+
+.movie-length-grey-mb {
+    width: 250px;
+    height: 7px;
+    background-color: rgba(35, 35, 36, 0.6);
+    border-radius: 26.52px;
+    margin-top: 80px;
+}
+
+.movie-length-blue-mb {
+    width: 80px;
+    height: 100%;
+    background-color: #729CEF;
+    border-radius: 26.52px;
+}
+
+.continue-button-mb,
+.see-more-button-mb {
+    width: 105px;
+    height: 30px;
+    background-color: #729CEF;
+    border-radius: 20px;
+    color: #F2F2F3;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    padding-top: 5px;
+    margin-top: 20px;
+    float: left;
+    cursor: pointer;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.see-more-button-mb {
+    background-color: #232324;
+    color: #729CEF;
+    margin-left: 40px;
+}
+
+.right-side-mb {
+    height: 400px;
+    width: 100%;
+    float: left;
+    overflow-x: hidden;
+    white-space: nowrap;
+}
+
+.movie-card-mb {
+    width: 333px;
+    height: 66px;
+    background-color: rgba(35, 35, 36, 0.5);
+    border-radius: 10px;
+    margin: 0 auto;
+    margin-bottom: 40px;
+    margin-top: 40px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    cursor: pointer;
+}
+
+.movie-cover-mb {
+    width: 80px;
+    height: 100%;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    background-color: crimson;
+    float: left;
+}
+
+.movie-card-info-box-mb {
+    width: 210px;
+    height: 66.73%;
+    float: right;
+}
+
+
+.movie-card-info-box-mb h1 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 12px;
+    font-weight: bolder;
+    float: left;
+    color: #F2F2F3;
+    margin-left: -30px;
+    margin-top: 10px;
+}
+
+.star2-mb {
+    margin-top: 8px;
+    margin-left: 8px;
+    float: right;
+}
+
+.movie-card-info-box-mb h3 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    font-weight: lighter;
+    color: #F2F2F3;
+    float: right;
+    margin-top: 10px;
+}
+
+.movie-card-length-mb {
+    background-color: #232324;
+    margin-top: 45px;
+    width: 150px;
+    margin-left: -30px;
+}
+
+.remove-button-mb {
+    float: right;
+    color: #84a8f0;
+    margin-top: -12px;
+    height: 100%;
+    width: 57px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 10px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/* IPHONE CSS */

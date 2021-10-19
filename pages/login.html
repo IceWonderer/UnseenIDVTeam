@@ -28,6 +28,11 @@
     <script src="../js/index.js"></script>
     <script src="../js/data.js"></script>
 
+      <!--bootstrap-->
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.min.js" integrity="sha384-skAcpIdS7UcVUC05LJ9Dxay8AXcDYfBJqt1CJ85S/CFujBsIzCIv+l9liuYLaMQ/" crossorigin="anonymous"></script>
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
     <!--google fonts link-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -39,6 +44,8 @@
 <body>
 
     <div class="container-fluid">
+
+        <div class="login-page-desktop d-none d-xxl-block">
 
         <div class="empty-border1"></div>
         <a href="../index.html"><div class="nav-logo-white"></div></a>
@@ -53,7 +60,7 @@
                 </div><!--login-path-box-->
 
                 <a href="../index.html"><div class="backHome-path-box">
-                    <div class="back-home-icon"><img class="back-home" src="../img/icons/login:register pg/back-home-icon.svg"></div>
+                    <div class="back-home-icon"><img class="back-home" src="../img/icons/login_register pg/back-home-icon.svg"></div>
                 </div><!--backHome-path-box--></a>
 
             </div><!--login-slider-->
@@ -96,6 +103,125 @@
             </div><!--media-->
         
         </div><!--footer-->
+
+</div><!--login-page-desktop-->
+
+
+
+
+
+
+<div class="login-page-ipad  d-none d-xl-block d-xxl-none">
+
+    <div class="empty-border1-pd"></div>
+    <a href="../index.html"><div class="nav-logo-white-pd"></div></a>
+    <div class="empty-border2-pd"></div>
+
+    <div class="register-box-pd">
+        <div class="login-slider-pd">
+
+            <div class="login-path-box-pd">
+                <h1>Login</h1>
+                <h2>Already have an account?</h2>
+            </div><!--login-path-box-->
+
+            <a href="../index.html"><div class="backHome-path-box-pd">
+                <div class="back-home-icon-pd"><img class="back-home-pd" src="../img/icons/login_register pg/back-home-icon.svg"></div>
+            </div><!--backHome-path-box--></a>
+
+        </div><!--login-slider-->
+
+        <div class="register-info-container-pd">
+            <h1>Register</h1>
+
+            <div class="firstname-div-pd personal-info-div-pd">
+               <input id="firstname-pd" name="firstname" placeholder="First name"> 
+            </div><!--firstname-div-->
+
+            <div class="lastname-div-pd personal-info-div-pd">
+                <input id="lastname-pd" name="lastname" placeholder="Last name"> 
+             </div><!--lastname-div-->
+
+             <div class="email-div-pd personal-info-div-pd">
+                <input id="email-pd" name="email" placeholder="E-mail"> 
+             </div><!--email-div-->
+
+             <div class="password-div-pd personal-info-div-pd">
+                <input id="password-pd" name="password" placeholder="Password"> 
+             </div><!--password-div-->
+
+             <input type="submit-pd" name="signUp-pd" value="Sign Up">
+
+
+        </div><!--register-info-container-->
+    </div><!--register-box-->
+
+    <div class="empty-box-pd"></div>
+    
+    <div class="footer-pd">
+
+        <div class="media-pd">
+    
+     <div class="twitter-pd media-icon-pd">  <a href=""><img class="" src="../img/icons/media icons/twitter-blue-icon.svg" height="40.66"></a></div>
+     <div class="insta-pd media-icon-pd"> <a href=""><img class="" src="../img/icons/media icons/instagram-blue-icon.svg" height="40.66"></a></div>
+     <div class="facebook-pd media-icon-pd"> <a href=""><img class="" src="../img/icons/media icons/facebook-blue-icon.svg" height="40.66"></a></div>
+    
+        </div><!--media-->
+    
+    </div><!--footer-->
+
+</div><!--login-page-ipad-->
+
+
+
+
+
+
+<div class="login-page-iphone  d-block d-sm-none">
+
+    <div class="blur-div-mb">
+
+        <div class="reg-head-mb reg-button-mb">Register</div>
+
+        <div class="main-content-box-mb">
+
+            <div class="reg-side-mb reg-button-mb"></div>
+
+            <div class="logo-box-mb">
+                <a href="../index.html"><div class="nav-logo-white-mb"></div></a>
+            </div><!--logo-box-mb-->
+
+            <div class="login-box-mb">Login</div>
+
+            <div class="empty-class1-mb"></div>
+
+            <div class="log-in-div-mb">
+                <div class="email-div-mb personal-info-div-mb">
+                    <input id="email-mb" name="email" placeholder="E-mail"> 
+                 </div><!--email-div-->
+
+                 <div class="password-div-mb personal-info-div-mb">
+                    <input id="password-mb" name="password" placeholder="Password"> 
+                 </div><!--password-div-->
+
+                 <input type="submit-mb" name="login-mb" value="Login">
+
+            </div><!--log-in-div-mb-->
+       
+
+        </div><!--main-content-box-mb-->
+
+       <a href="../index.html"><div class="reg-footer-mb">
+            <div class="back-home-icon-mb"><img class="back-home-mb" src="../img/icons/login_register pg/back-home-icon (iphone).svg"></div>
+           
+        </div><!--reg-footer-mb--> </a>
+
+    </div><!--blur-div-mb-->
+
+
+</div><!--login-page-iphone-->
+
+
 
     </div><!--container-fluid-->
 

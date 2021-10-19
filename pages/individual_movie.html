@@ -27,6 +27,11 @@
     <script src="../js/index.js"></script>
     <script src="../js/data.js"></script>
 
+     <!--bootstrap-->
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.min.js" integrity="sha384-skAcpIdS7UcVUC05LJ9Dxay8AXcDYfBJqt1CJ85S/CFujBsIzCIv+l9liuYLaMQ/" crossorigin="anonymous"></script>
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
     <!--google fonts link-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -39,12 +44,14 @@
 
 <div class="container-fluid">
 
+    <div class="individual-movie-page-desktop d-none d-xxl-block">
+
     <div class="navigation-container">
         <a href="../index.html"><div class="nav-logo"></div></a>
 
           <div class="navigation-box">
             <div class="nav-buttons">
-             <a href="../index.html" id="home-button"><li>Home</li></a>
+             <a href="../index.html"><li>Home</li></a>
              <a href="../pages/library.html"><li>Library</li></a>
              <a href="../pages/my_list.html"><li>My List</li></a>
             </div><!--nav-buttons--> 
@@ -105,6 +112,164 @@
 
     </div><!--main-content-box-->
 
+</div><!--individual-movie-page-desktop-->
+
+
+
+
+
+
+<div class="individual-movie-page-ipad d-none d-xl-block d-xxl-none">
+
+    <div class="navigation-container-pd">
+        <a href="../index.html"><div class="nav-logo-pd"></div></a>
+
+        <div class="navigation-box-pd">
+            <!-- <div id="active-filter-box"></div> -->
+            
+          <div class="nav-buttons-pd">
+           <a href="../index.html"><li>Home</li></a>
+           <a href="../pages/library.html"><li>Library</li></a>
+          <a href="../pages/my_list.html"><li>My List</li></a>
+          </div><!--nav-buttons--> 
+
+          <div class="search-icon-pd">
+          <div class="search-icon-pd"><img src="../img/icons/landing pg/search.svg" width="30"></div></div>
+      </div><!--navigation-box-->
+   </div><!--navigation-container-pd-->
+
+   <div class="header-img-pd">
+   </div><!--header-img-pd-->
+
+   <div class="main-content-box-pd">
+       <div class="movie-cover-pd"></div>
+
+       <div class="title-watch-box-pd">
+           <div class="movie-title-pd">shang-chi and the Legend of the Ten Rings</div>
+           <div class="watch-now-button-pd">Watch Now
+            <div class="watch-add-icon"><img src="../img/icons/individual_movie_pg/watch-now-icon-black.svg" width="20"></div>
+           </div>
+       </div><!--title-watch-box-pd-->
+
+       <div class="movie-info-box-pd">
+
+        <div class="trailer-add-box-pd">
+            <div class="trailer-add-css-pd trailer-button-pd">Trailer</div>
+            <div class="trailer-add-css-pd add-button-pd">Add List <div class="watch-add-icon-white"><img src="../img/icons/individual_movie_pg/add-list-white.svg" width="25"></div></div>
+        </div><!--trailer-add-box-->
+
+        <div class="emptyclass2-pd"></div>
+
+        <div class="movie-desc-pd">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Semper vel proin purus ac amet. Etiam pellentesque malesuada vestibulum quis aenean maecenas blandit. </div>
+
+        <table id="movie-details-pd">
+            <tr>
+                <td>Released: 2013-09-12 </td>
+                <td>Duration: 60min</td>
+            </tr>
+
+            <tr>
+                <td>Genre: Fantacy, Adventure</td>
+                <td>Country: United Kingdom</td>
+            </tr>
+
+            <tr>
+                <td>Casts: Names of the casts</td>
+                <td>Production: Company/ Producer’s names</td>
+            </tr>
+        </table>
+
+        <div class="footer-pd">
+
+            <div class="media-pd">
+        
+         <div class="twitter-pd media-icon-pd">  <a href=""><img class="" src="../img/icons/media icons/twitter-icon-white.svg" height="40.66"></a></div>
+         <div class="insta-pd media-icon-pd"> <a href=""><img class="" src="../img/icons/media icons/ig-icon-white.svg" height="40.66"></a></div>
+         <div class="facebook-pd media-icon-pd"> <a href=""><img class="" src="../img/icons/media icons/facebook-icon-white.svg" height="40.66"></a></div>
+        
+            </div><!--media-->
+        
+        </div><!--footer-->
+       </div><!--movie-info-box-pd-->
+
+
+   </div><!--main-content-box-pd-->
+
+
+
+</div><!--individual-movie-page-ipad-->
+
+
+
+
+<div class="individual-movie-page-iphone d-block d-sm-none">
+
+    <div class="nav-container-mb">
+        <a href="./index.html"><div class="nav-logo-mb"></div></a>
+
+        <div class="nav-icon-box-mb">
+            <div class="search-icon-mb">
+                <div class="search-icon-mb"><img src="../img/icons/landing pg/search.svg" width="30"></div></div>
+
+                <div class="menu-icon-mb">
+                    <div class="menu-icon-mb"><img src="../img/icons/landing pg/menu-icon.svg" width="45"></div>
+                </div><!--menu-icon-mb-->
+
+        </div><!--nav-icon-box-mb-->
+     </div><!--nav-container-mb-->
+
+     <div class="empty-class-mb "></div>
+
+     <div class="main-content-box-mb">
+
+        <div class="movie-cover-mb"></div>
+        <div class="watch-now-button-mb">Watch Now
+            <div class="watch-add-icon-mb"><img src="../img/icons/individual_movie_pg/watch-now-icon-white.svg" width="20"></div>
+        </div>
+
+        <div class="movie-title-box-mb">shang-chi and the Legend of the Ten Rings</div>
+
+        <div class="trailer-add-box-mb">
+            <div class="trailer-add-css-mb trailer-button-mb">Trailer</div>
+            <div class="trailer-add-css-mb add-button-mb">Add List <div class="watch-add-icon-white"><img src="../img/icons/individual_movie_pg/add-list-white.svg" width="25"></div></div>
+        </div><!--trailer-add-box-->
+
+        <div class="movie-desc-mb">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Semper vel proin purus ac amet. Etiam pellentesque malesuada vestibulum quis aenean maecenas blandit. </div>
+
+        <div id="movie-details-mb">
+        <table>
+            <tr>
+                <td>Released: 2013-09-12 </td>
+                <td>Duration: 60min</td>
+            </tr>
+
+            <tr>
+                <td>Genre: Fantacy, Adventure</td>
+                <td>Country: United Kingdom</td>
+            </tr>
+
+            <tr>
+                <td>Casts: Names of the casts</td>
+                <td>Production: Company/ Producer’s names</td>
+            </tr>
+        </table></div>
+
+        <div class="footer-mb">
+
+            <div class="media-mb">
+        
+         <div class="twitter-mb media-icon-mb">  <a href=""><img class="" src="../img/icons/media icons/twitter-icon-white.svg" height="40.66"></a></div>
+         <div class="insta-mb media-icon-mb"> <a href=""><img class="" src="../img/icons/media icons/ig-icon-white.svg" height="40.66"></a></div>
+         <div class="facebook-mb media-icon-mb"> <a href=""><img class="" src="../img/icons/media icons/facebook-icon-white.svg" height="40.66"></a></div>
+        
+            </div><!--media-->
+        
+        </div><!--footer-->
+
+     </div><!--main-content-box-mb-->
+
+
+</div><!--individual-movie-page-iphone-->
 
 
 </div><!--container-fluid-->

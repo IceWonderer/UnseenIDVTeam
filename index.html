@@ -29,6 +29,8 @@
 
       <!--bootstrap-->
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.min.js" integrity="sha384-skAcpIdS7UcVUC05LJ9Dxay8AXcDYfBJqt1CJ85S/CFujBsIzCIv+l9liuYLaMQ/" crossorigin="anonymous"></script>
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 
     <!--google fonts link-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -42,12 +44,14 @@
 
     <div class="container-fluid">
 
-        <div class="header-box row">
+        <div class="landing-page-desktop d-none d-xxl-block">
 
-        <div class="navigation-container row">
+        <div class="header-box">
+
+        <div class="navigation-container">
            <a href="./index.html"><div class="nav-logo"></div></a>
 
-              <div class="navigation-box col-lg-12">
+              <div class="navigation-box">
                   <!-- <div id="active-filter-box"></div> -->
                   
                 <div class="nav-buttons">
@@ -74,7 +78,7 @@
             <div class="reg-log-box">
                <a href=""> <div class="reg-button button"><li>Register</li></div> </a>
                <div class="seperater-div"></div>
-               <a href=""> <div class="log-button button"><li>Login</li></div> </a>
+               <a href="pages/login.html"> <div class="log-button button"><li>Login</li></div> </a>
             </div><!--reg-log-box-->
 
             <div class="MOTW-div">
@@ -85,7 +89,7 @@
 
     </div><!--header-box-->
 
-<div class="movie-of-week-info row">
+<div class="movie-of-week-info">
    <h1>shang-chi and the Legend of the Ten Rings</h1>
         <div class="MOTW-info-div">
          <h2>Action, Adventure, Fantasy</h2>
@@ -103,12 +107,11 @@
              <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Semper vel proin purus ac amet. Etiam pellentesque malesuada vestibulum quis aenean maecenas blandit. </h2> </div>
 
         </div><!--MOTW-info-div-->
-        
-    </div><!--MOTW-title-->
+    
     
         </div><!--movie-of-week-info-->
 
-        <div class="top-recommendations row">
+        <div class="top-recommendations">
 
             <h1>Top Recommendations</h1>
 
@@ -138,6 +141,195 @@
 
 </div><!--footer-->
 
+
+    </div><!--landing-page-desktop-->
+
+
+
+
+
+
+
+
+
+
+    
+    <div class="landing-page-ipad d-none d-xl-block d-xxl-none">
+
+        <div class="navigation-container-pd">
+            <a href="./index.html"><div class="nav-logo-pd"></div></a>
+
+            <div class="navigation-box-pd">
+                <!-- <div id="active-filter-box"></div> -->
+                
+              <div class="nav-buttons-pd">
+               <a href="./index.html" id="home-button-pd"><li>Home</li></a>
+               <a href="./pages/library.html"><li>Library</li></a>
+              <a href="./pages/my_list.html"><li>My List</li></a>
+              </div><!--nav-buttons--> 
+
+              <div class="search-icon-pd">
+              <div class="search-icon-pd"><img src="img/icons/landing pg/search.svg" width="30"></div></div>
+          </div><!--navigation-box-->
+
+       </div><!--navigation-container-pd-->
+
+       <div class="welcome-message-box-pd">
+
+        <div class="thank-you-box-pd">Thank you for choosing UnSEEN</div>
+
+        <div class="reg-log-box-pd">
+            <a href=""> <div class="reg-button-pd button"><li>Register</li></div> </a>
+            <div class="seperater-div-pd"></div>
+            <a href="pages/login.html"> <div class="log-button-pd button-pd"><li>Login</li></div> </a>
+         </div><!--reg-log-box-->
+         <div class="MOTW-div-pd MOTW-div-pd">
+            <h1>Movie of the</h1>
+            <h2>week</h2>
+        </div><!--MOTW-div-->
+
+       </div><!--welcome-message-box-pd-->
+
+
+
+       <div class="background-img-pd">
+
+        <div class="movie-of-week-info-pd">
+            <div class="movie-title-pd">shang-chi and the Legend of the Ten Rings</div>
+
+            <div class="MOTW-info-div-pd">
+                <h2>Action, Adventure, Fantasy</h2>
+       
+                <div class="watch-add-box-pd">
+                    <div class="watch-add-button watch-now-button-pd">Watch Now
+                        <div class="watch-add-icon-pd"><img src="img/icons/landing pg/watch-now.svg" width="25"></div>
+                    </div>
+                    <div class="watch-add-button add-list-button-pd">Add List
+                       <div class="watch-add-icon-pd"><img src="img/icons/landing pg/add-icon.svg" width="25"></div>
+                    </div>
+                </div><!--watch-add-box-->
+       
+                <div class="movie-description-box-pd">
+                    <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Semper vel proin purus ac amet. Etiam pellentesque malesuada vestibulum quis aenean maecenas blandit. </h2> </div>
+               </div>  
+
+               <div class="top-reco-box-pd">
+                   <div class="top-reco-title-pd">Top Recommendations</div>
+
+                   <div class="top-movie-selector-pd">
+                    <div class="top-movies-pd">
+
+                        <div class="movie-pd first_movie-pd"></div>
+                        <div class="movie-pd"></div>
+                        <div class="movie-pd"></div>
+                        <div class="movie-pd"></div>
+                        <div class="movie-pd"></div>
+        
+                    </div><!--top-movies-->
+                </div><!--top-movie-selector-pd-->
+                <div class="empty-class1-pd"></div>
+
+                <div class="footer">
+
+                    <div class="media">
+                
+                 <div class="twitter media-icon">  <a href=""><img class="" src="./img/icons/media icons/twitter-icon-white.svg" height="40.66"></a></div>
+                 <div class="insta media-icon"> <a href=""><img class="" src="./img/icons/media icons/ig-icon-white.svg" height="40.66"></a></div>
+                 <div class="facebook media-icon"> <a href=""><img class="" src="./img/icons/media icons/facebook-icon-white.svg" height="40.66"></a></div>
+                
+                    </div><!--media-->
+                
+                </div><!--footer-->
+               </div><!--top-reco-box-pd-->
+
+     
+            
+           </div><!--movie-of-week-info-pd-->
+        </div><!--background-img-pd-->
+
+
+       </div><!--landing-page-ipad-->
+
+
+
+
+
+
+
+
+       <div class="landing-page-iphone d-block d-sm-none">
+
+        <div class="nav-container-mb">
+           <a href="./index.html"><div class="nav-logo-mb"></div></a>
+   
+           <div class="nav-icon-box-mb">
+               <div class="search-icon-mb">
+                   <div class="search-icon-mb"><img src="img/icons/landing pg/search.svg" width="30"></div></div>
+   
+                   <div class="menu-icon-mb">
+                       <div class="menu-icon-mb"><img src="img/icons/landing pg/menu-icon.svg" width="45"></div>
+                   </div>
+   
+           </div><!--nav-icon-box-mb-->
+        </div><!--nav-container-mb-->
+   
+        <div class="welcome-info-mb">
+           <div class="welcome-message-box-mb"><h1>Thank you for choosing UnSEEN</h1></div>
+           <div class="reg-log-box-mb">
+              <a href=""> <div class="reg-button-mb button-mb"><li>Register</li></div> </a>
+              <div class="seperater-div-mb"></div>
+              <a href="pages/login.html"> <div class="log-button-mb button-mb"><li>Login</li></div> </a>
+           </div><!--reg-log-box-->
+   
+           <div class="MOTW-div-mb">
+               <h1>Movie of the</h1>
+               <h2>week</h2>
+           </div><!--MOTW-div-->
+       </div><!--welcome-info-->
+   
+       <div class="background-img-mb">
+           <div class="movie-info-box-mb">
+               <div class="MOTW-title-mb">shang-chi and the Legend of the Ten Rings</div>
+               <div class="movie-genre-box-mb">Action, Adventure, Fantasy</div>
+   
+               <div class="watch-add-box-mb">
+                   <div class="watch-add-button-mb watch-now-button-mb">Watch Now
+                       <div class="watch-add-icon-mb"><img src="img/icons/landing pg/watch-now.svg" width="25"></div>
+                   </div>
+                   <div class="watch-add-button-mb add-list-button-mb">Add List
+                      <div class="watch-add-icon-mb"><img src="img/icons/landing pg/add-icon.svg" width="25"></div>
+                   </div>
+   
+                   <div class="movie-desc-box-mb">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Semper vel proin purus ac amet. Etiam pellentesque malesuada vestibulum quis aenean maecenas blandit. </div>  
+   
+                   <div class="media-mb">
+                   
+                       <div class="twitter-mb media-icon-mb">  <a href=""><img class="" src="./img/icons/media icons/twitter-icon-white.svg" height="40.66"></a></div>
+                       <div class="insta-mb media-icon-mb"> <a href=""><img class="" src="./img/icons/media icons/ig-icon-white.svg" height="40.66"></a></div>
+                       <div class="facebook-mb media-icon-mb"> <a href=""><img class="" src="./img/icons/media icons/facebook-icon-white.svg" height="40.66"></a></div>
+                      
+                          </div><!--media-->
+   
+               </div><!--watch-add-box-mb-->
+           </div><!--movie-info-box-mb-->
+            </div><!--background-img-mb-->
+   
+            <div class="emptyclass1-mb"></div>
+            <div class="top-reco-title-mb">Top Recommendations </div>
+   
+            <div class="top-movie-selector-mb">
+               <div class="top-movies-mb">
+   
+                   <div class="movie-mb first_movie-mb"></div>
+                   <div class="movie-mb"></div>
+                   <div class="movie-mb"></div>
+                   <div class="movie-mb"></div>
+                   <div class="movie-mb"></div>
+   
+               </div><!--top-movies-->
+           </div><!--top-movie-selector-pd-->
+   
+          </div><!--landing-page-iphone-->
 
 
     </div><!--container-fluid-->

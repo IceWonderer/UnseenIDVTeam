@@ -7,6 +7,7 @@ body {
     position: relative;
     width: 1440px;
     height: auto;
+    margin-top: 0px;
 }
 .navigation-container {
     width: 100%;
@@ -48,6 +49,15 @@ body {
     font-weight: bold;
     margin: 10px;
     margin-left: 100px;
+}
+.nav-buttons li:hover{
+    color: #729CEF;
+}
+.nav-buttons-pd li:hover{
+    color: #729CEF;
+}
+.nav-buttons-mb li:hover{
+    color: #729CEF;
 }
 .search-bar {
     width: 186px;
@@ -91,4 +101,97 @@ body {
 }
 .twitter {
     margin-left: 0px;
+}
+
+
+/*IPAD CSS*/
+.landing-page-ipad{
+    width: 1024;
+}
+
+.navigation-container-pd {
+    width: 100%;
+    height: 126px;
+}
+.nav-logo-pd {
+    width: 145px;
+    height: 109px;
+    background-image: url("../img/logo.svg");
+    background-position: center;
+    background-size: cover;
+    margin-left: 71px;
+    float: left;
+}
+.navigation-box-pd {
+    width: 800px;
+    height: 35px;
+    margin-top: 74px;
+    float: left;
+}
+
+.nav-buttons-pd li {
+    list-style-type: none;
+    font-family: 'Syncopate', sans-serif;
+    float: left;
+    color: #232324;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 10px;
+    margin-left: 100px;
+}
+.search-icon-pd{
+    float: right;
+    cursor: pointer;
+}
+/*IPAD CSS*/
+
+
+
+
+/* IPHONE */
+.landing-page-iphone{
+    width: 414px;
+}
+.nav-container-mb{
+    width: 100%;
+    height: 93px;
+}
+.nav-logo-mb{
+    width: 145px;
+    height: 109px;
+    background-image: url("../img/logo.svg");
+    background-position: center;
+    background-size: cover;
+    margin-left: 30px;
+    margin-top: 10px;
+    float: left;
+}
+
+.nav-icon-box-mb{
+    width: 90px;
+    height: 45px;
+    float: right;
+    margin-top: 40px;
+    margin-right: 10px;
+}
+.search-icon-mb{
+    cursor: pointer;
+    width: 30px;
+    height: 30px;
+    float: left;
+    margin-top: 3px;
+}
+.menu-icon-mb{
+    cursor: pointer;
+    width: 45px;
+    height: 45px;
+    float: right;
+}
+#home-button li{
+    color: #729CEF;
+}
+#home-button-pd li{
+    color: #729CEF;
 }

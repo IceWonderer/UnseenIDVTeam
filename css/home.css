@@ -1,3 +1,4 @@
+/*DESKTOP CSS*/
 .header-box {
     width: 100%;
     height: 900px;
@@ -80,11 +81,11 @@
 .MOTW-div h2{
     color: #729CEF;
     margin-left: 8px;
-    margin-top: 16.5px;
+ 
 }
 
 .header-img {
-    height: 900px;
+    height: 880px;
     width: 608px;
     background-image: url("../img/header-img.png");
     background-position: center;
@@ -102,12 +103,7 @@
     position: relative;
     padding-left: 118px;
 }
-.MOTW-title{
-    width: 1322px;
-    height: 90%;
-    margin-left: 118px;
-}
-.MOTW-title h1{
+.movie-of-week-info h1{
     font-family: 'Syncopate', sans-serif;
     font-size: 32px;
     font-weight: bold;
@@ -119,7 +115,6 @@
 .MOTW-info-div{
     width: 1218px;
     height: 312.5px;
-    margin-top: 30px;
     margin-top: 150px;
     margin-left: 102px;
 }
@@ -138,10 +133,26 @@
 }
 .watch-add-button{
     width: 166px;
-    height: 70%;
-    padding-top: 20px;
+    height: 53px;
+    padding-top: 15px;
     background-color: rgba(35, 35, 36, 0.6);
-    border-radius: 10px;
+    backdrop-filter: blur(30px);
+    border-radius: 15px;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    color: #F2F2F3;
+    float: left;
+    cursor: pointer;
+}
+.watch-add-icon{
+    float: right;
+    margin-right: 15px;
+    margin-top: -5px;
+}
+.add-list-button {
+    margin-left: 18px;
 }
 
 .movie-description-box{
@@ -186,4 +197,432 @@
     margin-left: 0px;
 }
 
+/*DESKTOP CSS*/
 
+
+
+
+
+
+/*IPAD CSS*/
+.welcome-message-box-pd{
+    width: 100%;
+    height: 310px;
+}
+.thank-you-box-pd{
+    width: 510px;
+    height: 60px;
+    margin-top: 88px;
+    margin-left: 136px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 32px;
+    font-weight: lighter;
+    color: #232324;
+}
+.reg-log-box-pd{
+    width: 341px;
+    height: 139px;
+    margin-left: 136px;
+    margin-top: 20px;
+}
+.button-pd {
+    width: 137px;
+    height: 53px;
+    background-color: #729CEF;
+    border-radius: 10px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    float: left;
+}
+.button-pd li{
+    width: 100%;
+    list-style-type: none;
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 18px;
+
+}
+.log-button-pd{
+    background-color: #232324;
+    
+}
+.log-button-pd li{
+    margin-left: 45px;
+    color: #729CEF;
+}
+.reg-button-pd li{
+    margin-left: 35px;
+    color: #F2F2F3;
+}
+.reg-button-pd{
+    background-color: #729CEF;
+}
+.seperater-div-pd{
+    width: 67px;
+    height: 100%;
+    float: left;
+}
+.MOTW-div-pd{
+    width: 700px;
+    height: 78px;
+    margin-left: 136px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.MOTW-div-pd h1, .MOTW-div-pd h2{
+    font-family: 'Syncopate', sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    float: left;
+    color: #4D4A4F;
+}
+.MOTW-div-pd h2{
+    color: #729CEF;
+    margin-left: 8px;
+}
+
+
+
+.background-img-pd{
+    width: 1024px;
+    height: 1387px;
+    background-image: url("../img/background-img\(ipad\).png");
+    background-position: center;
+    background-size: cover;
+    float: left;
+}
+.movie-of-week-info-pd {
+    width: 1024px;
+    height: 1173px;
+    background-color: rgba(210, 80, 7, 0.6);
+    backdrop-filter: blur(40px);
+    margin-top: 214px;
+    padding-top: 20px;
+    float: left;
+}
+.movie-title-pd{
+    width: 860px;
+    height: 80px;
+    margin: 0 auto;
+    text-align: center;
+    font-family: 'Syncopate', sans-serif;
+    font-size: 32px;
+    font-weight: bold;
+    color: #F2F2F3;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.MOTW-info-div-pd{
+    width: 1218px;
+    height: 312.5px;
+    margin-top: 150px;
+    margin-left: 102px;
+}
+.MOTW-info-div-pd h2{
+    font-family: 'Raleway', sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    color: #232324;
+}
+.watch-add-box-pd{
+    width: 350px;
+    height: 53px;
+    margin-left: 450px;
+    margin-top: -60px;
+    float: left;
+}
+.watch-add-button-pd{
+    width: 166px;
+    height: 70%;
+    padding-top: 20px;
+    background-color: rgba(35, 35, 36, 0.6);
+    backdrop-filter: blur(30px);
+    border-radius: 15px;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    color: #F2F2F3;
+    float: left;
+    cursor: pointer;
+}
+.watch-add-icon-pd{
+    float: right;
+    margin-right: 15px;
+    margin-top: -5px;
+}
+.add-list-button-pd {
+    margin-left: 18px;
+}
+
+.movie-description-box-pd{
+    width: 600px;
+    height: 110px;
+    margin-top: 100px;
+}
+.movie-description-box-pd h2{
+    font-family: 'Raleway', sans-serif;
+    font-size: 24px;
+    font-weight: normal;
+    color: #232324;
+}
+
+
+.top-reco-box-pd{
+    width: 100%;
+    height: 576px;
+    margin-top: 55px;
+}
+.top-reco-title-pd{
+    width: 100%;
+    height: 40px;
+    padding-left: 50px;
+    font-family: 'Syncopate', sans-serif;
+    font-size: 32px;
+    font-weight: bold;
+    color: #232324;
+}
+.top-movie-selector-pd{
+    width: 100%;
+    height: 292px;
+    margin-top: 20px;
+    overflow-y: hidden;
+    white-space: nowrap;
+}
+.top-movies-pd {
+    width: 1213px;
+    height: 292px;
+    margin: 0 auto;
+}
+
+.movie-pd {
+    width: 213px;
+    height: 100%;
+    background-color: black;
+    border-radius: 10px;
+    float: left;
+    margin-left: 37px;
+}
+
+.empty-class1-pd{
+    width: 100%;
+    height: 130px;
+}
+
+/*IPAD CSS*/
+
+
+/* IPHONE */
+.welcome-info-mb {
+    width: 100%;
+    height: 304px;
+    float: left;
+    padding-top: 30px;
+    margin: 0 auto;
+}
+.welcome-message-box-mb{
+    width: 100%;
+    height: 60px;
+    margin: 0 auto;
+    color: #232324;
+    text-align: center;
+    word-wrap: break-word
+}
+.welcome-message-box-mb h1{
+    font-family: 'Raleway', sans-serif;
+    font-size: 32px;
+    font-weight: lighter;
+
+}
+.reg-log-box-mb{
+    width: 100%;
+    height: 139px;
+    margin-left: 40px;
+    margin-top: 70px;
+}
+.button-mb {
+    width: 137px;
+    height: 53px;
+    background-color: #729CEF;
+    border-radius: 10px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    float: left;
+}
+.button-mb li{
+    width: 100%;
+    list-style-type: none;
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 18px;
+
+}
+.log-button-mb{
+    background-color: #232324;
+    
+}
+.log-button-mb li{
+    margin-left: 45px;
+    color: #729CEF;
+}
+.reg-button-mb li{
+    margin-left: 35px;
+    color: #F2F2F3;
+}
+.reg-button-mb{
+    background-color: #729CEF;
+}
+.seperater-div-mb{
+    width: 67px;
+    height: 100%;
+    float: left;
+}
+.MOTW-div-mb{
+    width: 100%;
+    height: 78px;
+    padding-left: 30px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.MOTW-div-mb h1, .MOTW-div-mb h2{
+    font-family: 'Syncopate', sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    float: left;
+    color: #4D4A4F;
+}
+.MOTW-div-mb h2{
+    color: #729CEF;
+    margin-left: 8px;
+}
+.background-img-mb{
+    width: 100%;
+    height: 451px;
+    background-image: url("../img/background-img\(iphone\).png");
+    background-position: center;
+    background-size: cover;
+    margin-top: 400px;
+    padding-top: 80px;
+}
+.movie-info-box-mb{
+    width: 348px;
+    height: 496px;
+    padding-top: 10px;
+    background-color: rgba(210, 80, 7, 0.6);
+    backdrop-filter: blur(40px);
+    border-radius: 18px;
+    margin: 0 auto;
+}
+.MOTW-title-mb{
+    width: 230px;
+    height: auto;
+    margin: 0 auto;
+    color: #F2F2F3;
+    font-family: 'Syncopate', sans-serif; 
+    font-size: 16px;
+    font-weight: bold;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    text-align: center;
+}
+
+.movie-genre-box-mb{
+    width: 178px;
+    height: 58px;
+    margin: 0 auto;
+    margin-top: 45px;
+    color: #232324;
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+}
+.watch-add-box-mb{
+    width: 300px;
+    height: 53px;
+    margin: 0 auto;
+}
+.watch-add-button-mb{
+    width: 140px;
+    height: 53px;
+    padding-top: 15px;
+    background-color: rgba(35, 35, 36, 0.6);
+    backdrop-filter: blur(30px);
+    border-radius: 15px;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    color: #F2F2F3;
+    float: left;
+    cursor: pointer;
+}
+.watch-add-icon-mb{
+    float: right;
+    margin-right: 10px;
+    margin-top: -5px;
+}
+.add-list-button-mb {
+    margin-left: 18px;
+}
+.movie-desc-box-mb{
+    width: 219px;
+    height: auto;
+    padding-top: 110px;
+    margin: 0 auto; 
+    text-align: left;
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+}
+
+.media-mb{
+    width: 200px;
+    height: 44px;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+.media-icon-mb {
+    float: left;
+    cursor: pointer;
+    margin-left: 33px;
+    padding-top: 10px;
+}
+.twitter-mb {
+    margin-left: 0px;
+}
+
+.emptyclass1-mb{
+    width: 414px;
+    height: 80px;
+    margin-top: 150px;
+}
+
+.top-reco-title-mb{
+    width: 367px;
+    height: 19px;
+    margin: 0 auto;
+    font-family: 'Syncopate', sans-serif; 
+    font-size: 14px;
+    font-weight: bold;
+    color: #232324;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.top-movie-selector-mb{
+    width: 100%;
+    height: 292px;
+    margin-top: 20px;
+    overflow-y: hidden;
+    white-space: nowrap;
+}
+.top-movies-mb {
+    width: 1213px;
+    height: 292px;
+    margin: 0 auto;
+}
+
+.movie-mb {
+    width: 213px;
+    height: 100%;
+    background-color: black;
+    border-radius: 10px;
+    float: left;
+    margin-left: 37px;
+}
+/* IPHONE */

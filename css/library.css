@@ -1,7 +1,10 @@
+/*DESKTOP CSS*/
 .header-img {
     width: 100%;
     height: 490px;
-    background-color: tomato;
+    background-image: url("../img/background-img-library.png");
+    background-position: center;
+    background-size: cover;
     margin-top: 25px;
 }
 
@@ -58,8 +61,8 @@
 
 .movie-container {
     width: 1183px;
-    height: auto;
     margin: 0 auto;
+    background-color: darkcyan;
 }
 
 .movie {
@@ -84,3 +87,239 @@
 .media-icon {
     margin-top: 50px;
 }
+/*DESKTOP CSS*/
+
+
+/*IPAD CSS*/
+.library-page-ipad{
+    width: 1024px;
+}
+.navigation-container-pd {
+    width: 100%;
+    height: 126px;
+}
+.nav-logo-pd {
+    width: 145px;
+    height: 109px;
+    background-image: url("../img/logo.svg");
+    background-position: center;
+    background-size: cover;
+    margin-left: 71px;
+    float: left;
+}
+.nav-logo-pd:hover{
+    margin-top: -5px;
+    transition: 0.3s;
+}
+.navigation-box-pd {
+    width: 800px;
+    height: 35px;
+    margin-top: 74px;
+    float: left;
+}
+
+.nav-buttons-pd li {
+    list-style-type: none;
+    font-family: 'Syncopate', sans-serif;
+    float: left;
+    color: #232324;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 10px;
+    margin-left: 100px;
+}
+.search-icon-pd{
+    float: right;
+    cursor: pointer;
+}
+
+.header-img-pd{
+    width: 100%;
+    height: 477px;
+    background-image: url("../img/header-img\(ipad\).png");
+    background-position: center;
+    background-size: cover;
+    margin-top: 20px;
+}
+
+.top-movies-box-pd {
+    width: 100%;
+    height: 292px;
+    margin: 0 auto;
+    margin-top: -240px;
+    overflow-y: hidden;
+    white-space: nowrap;
+}
+.top-movie-pd {
+    width: 213px;
+    height: 100%;
+    background-color: black;
+    border-radius: 10px;
+    float: left;
+    margin-left: 37px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+
+.filters-box-pd{
+    width: 130px;
+    height: 240px;
+    margin-top: 55px;
+    margin-left: 40px;
+    float: left;
+}
+.filter-tabs-pd {
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+}
+.filter-button-pd {
+    padding: 6px;
+    /* margin: 0px 2.5px; */
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    cursor: pointer;
+}
+.genre-filter-active-pd {
+    background-color: #729CEF;
+    border-radius: 10px;
+    width: 130px;
+    height: 35px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-weight: bold;
+    margin-top: -2px;
+}
+
+
+.movie-container-pd{
+    width: 668px;
+    height: auto;
+    float: right;
+    margin-top: 55px;
+    margin-right: 25px;
+}
+
+.movie-pd {
+    width: 217px;
+    height: 290px;
+    background-color: dimgray;
+    border-radius: 10px;
+    margin-left: 8px;
+    margin-top: 20px;
+    float: left;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.first_movie-pd {
+    margin-left: 0px;
+}
+
+/*IPAD CSS*/
+
+
+
+
+/*IPHONE CSS*/
+.library-page-iphone{
+    width: 414px;
+}
+.nav-container-mb{
+    width: 100%;
+    height: 93px;
+}
+.nav-logo-mb{
+    width: 145px;
+    height: 109px;
+    background-image: url("../img/logo.svg");
+    background-position: center;
+    background-size: cover;
+    margin-left: 30px;
+    margin-top: 10px;
+    float: left;
+}
+
+.nav-icon-box-mb{
+    width: 90px;
+    height: 45px;
+    float: right;
+    margin-top: 40px;
+    margin-right: 10px;
+}
+.search-icon-mb{
+    cursor: pointer;
+    width: 30px;
+    height: 30px;
+    float: left;
+    margin-top: 3px;
+}
+.menu-icon-mb{
+    cursor: pointer;
+    width: 45px;
+    height: 45px;
+    float: right;
+}
+.header-img-mb{
+    width: 100%;
+    height: 312px;
+    background-image: url("../img/background-img-library\(iphone\).png");
+    background-position: center;
+    background-size: cover;
+}
+
+.top-movies-box-mb {
+    width: 100%;
+    height: 264px;
+    margin: 0 auto;
+    margin-top: -110px;
+    overflow-x: hidden;
+    white-space: nowrap;
+}
+
+.top-movie-mb {
+    width: 180px;
+    height: 100%;
+    background-color: black;
+    border-radius: 10px;
+    float: left;
+    margin-left: 18px;
+    margin-top: 10px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.genre-box-mb{
+    width: 100px;
+    height: 18px;
+    margin-top: 20px;
+    padding-left: 18px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+    color: #4F4A4C;
+    cursor: pointer;
+}
+
+.movie-container-mb{
+    width: 100%;
+    height: auto;
+    /* float: right;
+    margin-top: 55px;
+    margin-right: 25px; */
+}
+
+.movie-mb {
+    width: 180px;
+    height: 290px;
+    background-color: dimgray;
+    border-radius: 10px;
+    margin-left: 18px;
+    margin-top: 20px;
+    float: left;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.first_movie-mb{
+    margin-left: 18px;
+}
+/*IPHONE CSS*/

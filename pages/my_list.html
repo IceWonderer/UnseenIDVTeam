@@ -28,6 +28,11 @@
     <script src="../js/index.js"></script>
     <script src="../js/data.js"></script>
 
+    <!--bootstrap-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.min.js" integrity="sha384-skAcpIdS7UcVUC05LJ9Dxay8AXcDYfBJqt1CJ85S/CFujBsIzCIv+l9liuYLaMQ/" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
     <!--google fonts link-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -40,6 +45,8 @@
 
     <div class="container-fluid">
 
+        <div class="my-list-page-desktop d-none d-xxl-block">
+
         <div class="navigation-container">
             <a href="../index.html">
                 <div class="nav-logo"></div>
@@ -47,13 +54,13 @@
 
             <div class="navigation-box">
                 <div class="nav-buttons">
-                    <a href="../index.html" id="home-button">
+                    <a href="../index.html">
                         <li>Home</li>
                     </a>
                     <a href="../pages/library.html">
                         <li>Library</li>
                     </a>
-                    <a href="../pages/my_list.html">
+                    <a href="../pages/my_list.html" id="home-button">
                         <li>My List</li>
                     </a>
                 </div>
@@ -182,24 +189,293 @@
             <!--movie-card-->
 
         </div>
-        <!--background-box-->
 
-        <!-- <div class="footer">
-            <div class="twitter media-icon">
-                <a href=""><img class="" src="../img/icons/media icons/twitter-blue-icon.svg" height="40.66"></a>
-            </div>
-            <div class="insta media-icon">
-                <a href=""><img class="" src="../img/icons/media icons/instagram-blue-icon.svg" height="40.66"></a>
-            </div>
-            <div class="facebook media-icon">
-                <a href=""><img class="" src="../img/icons/media icons/facebook-blue-icon.svg" height="40.66"></a>
-            </div>
 
-        </div> -->
-        <!--footer-->
+        </div><!--my-list-page-desktop-->
 
-    </div>
-    <!--container-fluid-->
+
+
+
+
+
+
+        <div class="my-list-page-ipad d-none d-xl-block d-xxl-none">
+
+            <div class="navigation-container-pd">
+                <a href="../index.html">
+                    <div class="nav-logo-pd"></div>
+                </a>
+    
+                <div class="navigation-box-pd">
+                    <div class="nav-buttons-pd">
+                        <a href="../index.html" >
+                            <li>Home</li>
+                        </a>
+                        <a href="../pages/library.html">
+                            <li>Library</li>
+                        </a>
+                        <a href="../pages/my_list.html"id="home-button-pd">
+                            <li>My List</li>
+                        </a>
+                    </div>
+                    <!--nav-buttons-->
+                    <div class="search-icon-pd">
+                        <div class="search-icon-pd"><img src="../img/icons/landing pg/search.svg" width="30"></div></div>
+                  
+                </div>
+                <!--navigation-box-->
+
+               
+            </div>
+            <!--navigation-container-->
+    
+    
+            <div class="emptyclass1-pd"></div>
+    
+            <div class="title-pg-pd">
+                <h1>MY List</h1>
+            </div>
+            <!--title-pg-->
+    
+            <div class="background-box-pd">
+                <div class="left-side-pd">
+    
+    
+                    <div class="preview-img-pd"></div>
+                    <div class="movie-info-pd">
+                        <div class="movie-info-container-pd">
+                            <h2>Fantancy, Adventure</h2>
+                            <h1>Shang-Chi</h1>
+                            <div class="star-icon-pd"><img class="" src="../img/my-list-pg-img/star-icon.svg" height="20"></div>
+                            <h3>8.2</h3>
+                            <div class="movie-length-grey-pd">
+                                <div class="movie-length-blue-pd"></div>
+                            </div>
+                            <!--movie-length-grey-->
+                            <div class="continue-button-pd">Continue</div>
+                            <a href="../pages/individual_movie.html">
+                                <div class="see-more-button-pd">See More</div>
+                            </a>
+    
+                        </div>
+                        <!--movie-info-container-->
+                    </div>
+                    <!--movie-info-->
+    
+                </div>
+                <!--left-side-->
+    
+                <div class="right-side-pd">
+    
+                    <div class="movie-card-pd">
+                        <div class="movie-cover-pd"></div>
+                        <div class="movie-card-info-box-pd">
+                            <h1>Afterlife of The Party</h1>
+                            <div class="star-icon star2-pd"><img class="" src="../img/my-list-pg-img/star-icon.svg" height="20"></div>
+                            <h3>8.2</h3>
+                            <div class="movie-length-grey movie-card-length-pd">
+                                <div class="movie-length-blue-pd" id="blue-lenght1-pd"></div>
+                            </div>
+                            <!--movie-length-grey-->
+                            <div class="remove-button-pd">Remove</div>
+                        </div>
+                        <!--movie-card-info-box-->
+                    </div>
+                    <!--movie-card-->
+    
+                    <div class="movie-card-pd">
+                        <div class="movie-cover-pd"></div>
+                        <div class="movie-card-info-box-pd">
+                            <h1>Shang-Chi</h1>
+                            <div class="star-icon star2-pd"><img class="" src="../img/my-list-pg-img/star-icon.svg" height="20"></div>
+                            <h3>8.2</h3>
+                            <div class="movie-length-grey movie-card-length-pd">
+                                <div class="movie-length-blue-pd" id="blue-lenght1"></div>
+                            </div>
+                            <!--movie-length-grey-->
+                            <div class="remove-button-pd">Remove</div>
+                        </div>
+                        <!--movie-card-info-box-->
+    
+                    </div>
+                    <!--movie-card-->
+    
+                    <div class="movie-card-pd">
+                        <div class="movie-cover-pd"></div>
+                        <div class="movie-card-info-box-pd">
+                            <h1>Yakuza Princess</h1>
+                            <div class="star-icon star2-pd"><img class="" src="../img/my-list-pg-img/star-icon.svg" height="20"></div>
+                            <h3>8.2</h3>
+                            <div class="movie-length-grey movie-card-length-pd">
+                                <div class="movie-length-blue-pd" id="blue-lenght1-pd"></div>
+                            </div>
+                            <!--movie-length-grey-->
+                            <div class="remove-button-pd">Remove</div>
+                        </div>
+                        <!--movie-card-info-box-->
+    
+                    </div>
+                    <!--movie-card-->
+    
+                    <div class="movie-card-pd">
+                        <div class="movie-cover-pd"></div>
+                        <div class="movie-card-info-box-pd">
+                            <h1>Avengers Endgame</h1>
+                            <div class="star-icon star2-pd"><img class="" src="../img/my-list-pg-img/star-icon.svg" height="20"></div>
+                            <h3>8.2</h3>
+                            <div class="movie-length-grey movie-card-length-pd">
+                                <div class="movie-length-blue-pd" id="blue-lenght1-pd"></div>
+                            </div>
+                            <!--movie-length-grey-->
+                            <div class="remove-button-pd">Remove</div>
+                        </div>
+                        <!--movie-card-info-box-->
+    
+                    </div>
+                    <!--right-side-->
+    
+                </div>
+                <!--movie-card-->
+    
+            </div>
+            <!--background-box-->
+    
+    
+    </div><!--my-list-page-IPAD-->
+
+
+
+
+
+
+
+    <div class="my-list-page-iphone d-block d-sm-none">
+
+        <div class="nav-container-mb">
+            <a href="../index.html"><div class="nav-logo-mb"></div></a>
+    
+            <div class="nav-icon-box-mb">
+                <div class="search-icon-mb">
+                    <div class="search-icon-mb"><img src="../img/icons/landing pg/search.svg" width="30"></div></div>
+    
+                    <div class="menu-icon-mb">
+                        <div class="menu-icon-mb"><img src="../img/icons/landing pg/menu-icon.svg" width="45"></div>
+                    </div><!--menu-icon-mb-->
+    
+            </div><!--nav-icon-box-mb-->
+         </div><!--nav-container-mb-->
+
+        <!--title-pg-->
+
+        <div class="background-box-mb">
+            <div class="left-side-mb">
+
+
+                <div class="preview-img-mb"></div>
+                <div class="movie-info-mb">
+                    <div class="movie-info-container-mb">
+                        <h2>Fantancy, Adventure</h2>
+                        <h1>Shang-Chi</h1>
+                        <div class="star-icon-mb"></div>
+                        <h3>8.2</h3>
+                        <div class="movie-length-grey-mb">
+                            <div class="movie-length-blue-mb"></div>
+                        </div>
+                        <!--movie-length-grey-->
+                        <div class="continue-button-mb">Continue</div>
+                        <a href="../pages/individual_movie.html">
+                            <div class="see-more-button-mb">See More</div>
+                        </a>
+
+                    </div>
+                    <!--movie-info-container-->
+                </div>
+                <!--movie-info-->
+
+            </div>
+            <!--left-side-->
+
+            <div class="right-side-mb">
+
+                <div class="movie-card-mb">
+                    <div class="movie-cover-mb"></div>
+                    <div class="movie-card-info-box-mb">
+                        <h1>Afterlife of The Party</h1>
+                        <div class="star-icon star2-mb"></div>
+                        <h3>8.2</h3>
+                        <div class="movie-length-grey-mb movie-card-length-mb">
+                            <div class="movie-length-blue-mb" id="blue-lenght1-mb"></div>
+                        </div>
+                        <!--movie-length-grey-->
+                        <div class="remove-button-mb">Remove</div>
+                    </div>
+                    <!--movie-card-info-box-->
+                </div>
+                <!--movie-card-->
+
+                <div class="movie-card-mb">
+                    <div class="movie-cover-mb"></div>
+                    <div class="movie-card-info-box-mb">
+                        <h1>Shang-Chi</h1>
+                        <div class="star-icon star2-mb"></div>
+                        <h3>8.2</h3>
+                        <div class="movie-length-grey-mb movie-card-length-mb">
+                            <div class="movie-length-blue-mb" id="blue-lenght1-mb"></div>
+                        </div>
+                        <!--movie-length-grey-->
+                        <div class="remove-button-mb">Remove</div>
+                    </div>
+                    <!--movie-card-info-box-->
+
+                </div>
+                <!--movie-card-->
+
+                <div class="movie-card-mb">
+                    <div class="movie-cover-mb"></div>
+                    <div class="movie-card-info-box-mb">
+                        <h1>Yakuza Princess</h1>
+                        <div class="star-icon star2-mb"></div>
+                        <h3>8.2</h3>
+                        <div class="movie-length-grey-mb movie-card-length-mb">
+                            <div class="movie-length-blue-mb" id="blue-lenght1-mb"></div>
+                        </div>
+                        <!--movie-length-grey-->
+                        <div class="remove-button-mb">Remove</div>
+                    </div>
+                    <!--movie-card-info-box-->
+
+                </div>
+                <!--movie-card-->
+
+                <div class="movie-card-mb">
+                    <div class="movie-cover-mb"></div>
+                    <div class="movie-card-info-box-mb">
+                        <h1>Avengers Endgame</h1>
+                        <div class="star-icon star2-mb"></div>
+                        <h3>8.2</h3>
+                        <div class="movie-length-grey movie-card-length-mb">
+                            <div class="movie-length-blue-mb" id="blue-lenght1-mb"></div>
+                        </div>
+                        <!--movie-length-grey-->
+                        <div class="remove-button-mb">Remove</div>
+                    </div>
+                    <!--movie-card-info-box-->
+
+                </div>
+                <!--right-side-->
+
+            </div>
+            <!--movie-card-->
+
+        </div> <!--background-box-->
+   
+      </div><!--my-list-page-iphone-->
+
+
+
+
+
+    </div> <!--container-fluid-->
 
 </body>
 
