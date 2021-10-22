@@ -7,9 +7,16 @@
     background-size: cover;
     margin-top: 25px;
 }
+#headerImageBD{
+    width: 100%;
+    height: 490px;
+    display: block;
+    object-fit:cover;
+
+}
 
 .top-movies-box {
-    width: 1213px;
+    width: 1250px;
     height: 292px;
     margin: 0 auto;
     margin-top: -240px;
@@ -22,6 +29,14 @@
     border-radius: 10px;
     float: left;
     margin-left: 37px;
+}
+.topMovieImage{
+    width: 213px;
+    height: 100%;
+    background-color: black;
+    border-radius: 10px;
+    display: block;
+    object-fit:cover;
 }
 
 .empty-border1 {
@@ -60,8 +75,9 @@
 }
 
 .movie-container {
-    width: 1183px;
+    width: 1300px;
     margin: 0 auto;
+    margin-left: 100px;
     background-color: darkcyan;
 }
 

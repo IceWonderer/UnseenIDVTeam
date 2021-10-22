@@ -1,0 +1,13 @@
+api key
+0bf5587914a4404af70b0748372ba59f
+
+popular
+https://api.themoviedb.org/3/movie/popular?api_key=0bf5587914a4404af70b0748372ba59f&language=en-US&page=1
+
+get movie Details
+https://api.themoviedb.org/3/discover/movie?api_key=0bf5587914a4404af70b0748372ba59f&language=en-US&so
+rt_by=popularity.desc&include_adult=false&include_video=false&page=1&with_watch_monetization_types=flatrate
+
+release dates
+https://api.themoviedb.org/3/movie/{movie_id}/release_dates?api_key=0bf5587914a4404af70b0748372ba59f
+---------------GETmovie/{movie_id}/release_dates
