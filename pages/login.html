@@ -48,7 +48,7 @@
         <div class="login-page-desktop d-none d-xxl-block">
 
         <div class="empty-border1"></div>
-        <a href="../index.html"><div class="nav-logo-white"></div></a>
+        <div class="nav-logo-white"></div>
         <div class="empty-border2"></div>
 
         <div class="register-box reg-all">
@@ -59,9 +59,9 @@
                     <h2>Already have an account?</h2>
                 </div><!--login-path-box-->
 
-                <a href="../index.html"><div class="backHome-path-box">
+                <!-- <a href="../index.html"><div class="backHome-path-box">
                     <div class="back-home-icon"><img class="back-home" src="../img/icons/login_register pg/back-home-icon.svg"></div>
-                </div><!--backHome-path-box--></a>
+                </div></a> -->
 
             </div><!--login-slider-->
 
@@ -84,7 +84,8 @@
                     <input id="password" name="password" placeholder="Password"> 
                  </div><!--password-div-->
 
-                 <input type="submit" name="signUp" value="Sign Up">
+                 <div class="submit-box">
+                 <input type="submit" name="signUp" value="Sign Up" class="submit-reg"></div>
 
 
             </div><!--register-info-container-->
@@ -98,24 +99,27 @@
                     <h2>Don’t have an account?</h2>
                 </div><!--login-path-box-->
 
-                <a href="../index.html"><div class="backHome-path-box">
+                <!-- <a href="../index.html"><div class="backHome-path-box">
                     <div class="back-home-icon"><img class="back-home" src="../img/icons/login_register pg/back-home-icon-reg-pg.svg"></div>
-                </div><!--backHome-path-box--></a>
+                </div></a> -->
 
             </div><!--login-slider-->
 
             <div class="login-info-container login-h1-tag">
                 <h1>Login</h1>
 
-                 <div class="email-div personal-info-div login-input-top">
-                    <input id="email" name="email" placeholder="E-mail"> 
+                 <div class="username-div personal-info-div login-input-top">
+                    <input class="username" name="username" type="text" placeholder="Username"> 
                  </div><!--email-div-->
 
                  <div class="password-div personal-info-div login-input-bottom">
-                    <input id="password" name="password" placeholder="Password"> 
+                    <input class="password" name="password" type="password" placeholder="Password"> 
                  </div><!--password-div-->
 
-                 <input type="submit" name="Login" value="Login">
+                 <div class="auth-mes-box auth-message"></div>
+
+                 <div class="submit-box">
+                 <input type="submit" name="Login" value="Login" class="submit-log"></div>
 
 
             </div><!--register-info-container-->
@@ -145,7 +149,7 @@
 <div class="login-page-ipad  d-none d-xl-block d-xxl-none">
 
     <div class="empty-border1-pd"></div>
-    <a href="../index.html"><div class="nav-logo-white-pd"></div></a>
+    <div class="nav-logo-white-pd"></div>
     <div class="empty-border2-pd"></div>
 
     <div class="register-box-pd reg-all">
@@ -156,9 +160,9 @@
                 <h2>Already have an account?</h2>
             </div><!--login-path-box-->
 
-            <a href="../index.html"><div class="backHome-path-box-pd">
+            <!-- <a href="../index.html"><div class="backHome-path-box-pd">
                 <div class="back-home-icon-pd"><img class="back-home-pd" src="../img/icons/login_register pg/back-home-icon.svg"></div>
-            </div><!--backHome-path-box--></a>
+            </div></a> -->
 
         </div><!--login-slider-->
 
@@ -181,7 +185,8 @@
                 <input id="password-pd" name="password" placeholder="Password"> 
              </div><!--password-div-->
 
-             <input type="submit-pd" name="signUp-pd" value="Sign Up">
+             <div class="submit-box-pd">
+             <input type="submit" name="signUp-pd" value="Sign Up" class="submit-reg"></div>
 
 
         </div><!--register-info-container-->
@@ -196,24 +201,27 @@
                 <h2>Don’t have an account?</h2>
             </div><!--login-path-box-->
 
-            <a href="../index.html"><div class="backHome-path-box-pd">
+            <!-- <a href="../index.html"><div class="backHome-path-box-pd">
                 <div class="back-home-icon-pd"><img class="back-home-pd" src="../img/icons/login_register pg/back-home-icon-reg-pg.svg"></div>
-            </div><!--backHome-path-box--></a>
+            </div></a> -->
 
         </div><!--login-slider-->
 
         <div class="login-info-container-pd login-h1-tag-pd">
             <h1>Login</h1>
 
-             <div class="email-div-pd personal-info-div-pd login-input-top-pd">
-                <input id="email-pd" name="email" placeholder="E-mail"> 
+             <div class="username-div-pd personal-info-div-pd login-input-top-pd">
+                <input class="username" name="username" placeholder="Username"> 
              </div><!--email-div-->
 
              <div class="password-div-pd personal-info-div-pd login-input-bottom-pd">
-                <input id="password-pd" name="password" placeholder="Password"> 
+                <input class="password" name="password" placeholder="Password"> 
              </div><!--password-div-->
 
-             <input type="submit-pd" name="Login-pd" value="Login">
+             <div class="auth-mes-box-pd auth-message"></div>
+
+             <div class="submit-box-pd">
+             <input type="submit" name="Login-pd" value="Login" class="submit-log"></div>
 
 
         </div><!--login-info-container-->
@@ -253,7 +261,7 @@
             <div class="log-side-mb reg-button-mb login-slider-all"></div>
 
             <div class="logo-box-mb">
-                <a href="../index.html"><div class="nav-logo-white-mb"></div></a>
+                <div class="nav-logo-white-mb"></div>
             </div><!--logo-box-mb-->
 
             <div class="reg-box-mb">Register</div>
@@ -277,17 +285,15 @@
                     <input id="password-mb" name="password" placeholder="Password"> 
                  </div><!--password-div-->
 
-                 <input type="submit-mb" name="sighUp-mb" value="Sign Up">
+                 <div class="submit-box-mb">
+                 <input type="submit" name="sighUp-mb" value="Sign Up" class="submit-reg"></div>
 
             </div><!--log-in-div-mb-->
        
 
         </div><!--main-content-box-mb-->
 
-       <a href="../index.html"><div class="log-footer-mb">
-            <div class="back-home-icon-mb"><img class="back-home-mb" src="../img/icons/login_register pg/back-home-icon (iphone)-blue.svg"></div>
-           
-        </div><!--reg-footer-mb--> </a>
+      <div class="log-footer-mb"></div>
 
     </div><!--blur-div-mb-->
 
@@ -300,7 +306,7 @@
             <div class="reg-side-mb reg-button-mb reg-slider-all"></div>
 
             <div class="logo-box-mb">
-                <a href="../index.html"><div class="nav-logo-white-mb"></div></a>
+                <div class="nav-logo-white-mb"></div>
             </div><!--logo-box-mb-->
 
             <div class="login-box-mb">Login</div>
@@ -308,25 +314,25 @@
             <div class="empty-class1-mb"></div>
 
             <div class="log-in-div-mb">
-                <div class="email-div-mb personal-info-div-mb">
-                    <input id="email-mb" name="email" placeholder="E-mail"> 
+                <div class="username-div-mb personal-info-div-mb">
+                    <input class="username" name="username" placeholder="Username"> 
                  </div><!--email-div-->
 
                  <div class="password-div-mb personal-info-div-mb">
-                    <input id="password-mb" name="password" placeholder="Password"> 
+                    <input class="password" name="password" placeholder="Password"> 
                  </div><!--password-div-->
 
-                 <input type="submit-mb" name="login-mb" value="Login">
+                 <div class="auth-mes-box-mb auth-message"></div>
+
+                 <div class="submit-box-mb">
+                 <input type="submit" name="login-mb" value="Login" class="submit-log"></div>
 
             </div><!--log-in-div-mb-->
        
 
         </div><!--main-content-box-mb-->
 
-       <a href="../index.html"><div class="reg-footer-mb">
-            <div class="back-home-icon-mb"><img class="back-home-mb" src="../img/icons/login_register pg/back-home-icon (iphone).svg"></div>
-           
-        </div><!--reg-footer-mb--> </a>
+       <div class="reg-footer-mb"></div>
 
     </div><!--blur-div-mb-->
 
