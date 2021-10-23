@@ -33,6 +33,7 @@
     backdrop-filter: blur(20px);
     border-bottom-right-radius: 40px;
     border-top-right-radius: 40px;
+    display: none;
     /* transform: translateX(0);
     display: block; */
 }
@@ -111,6 +112,17 @@
 .login-input-bottom{
     margin-bottom: 45px;
 }
+.auth-mes-box{
+    width: 100%;
+    height: 45px;
+    /* background-color: salmon; */
+    padding-left: 300px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    color: salmon;
+    margin-top: -35px;
+    display: none;
+}
 
 .personal-info-div input::placeholder{
     color: #F2F2F3; 
@@ -119,7 +131,7 @@
     font-weight: lighter;
 }
 
-input[type=submit] {
+.submit-box input[type=submit] {
     width: 280px;
     background-color:#F2F2F3;
     border: none;
@@ -140,7 +152,7 @@ input[type=submit] {
     margin-top: 80px;
     cursor: pointer;
 }
-input[type=submit]:hover {
+.submit-box input[type=submit]:hover {
     margin-top: 70px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     transition: 0.3s;
@@ -158,7 +170,7 @@ input[type=submit]:hover {
     backdrop-filter: blur(20px);
     border-bottom-right-radius: 40px;
     border-top-right-radius: 40px;
-    display: none;
+    /* display: none; */
 }
 .reg-slider{
     width: 230px;
@@ -240,6 +252,7 @@ input[type=submit]:hover {
     height: 450px;
     background-color: rgba(114, 156, 239, 0.5);
     backdrop-filter: blur(20px);
+    display: none;
 }
 .login-slider-pd{
     width: 170px;
@@ -315,7 +328,7 @@ input[type=submit]:hover {
     font-weight: normal;
 }
 
-input[type=submit-pd] {
+.submit-box-pd input[type=submit] {
     width: 206px;
     background-color:#F2F2F3;
     border: none;
@@ -336,11 +349,7 @@ input[type=submit-pd] {
     margin-top: 25px;
     cursor: pointer;
 }
-input[type=submit-pd]:hover {
-    margin-top: 20px;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    transition: 0.3s;
-}
+
 
 .empty-box-pd{
     width: 100%;
@@ -374,7 +383,7 @@ input[type=submit-pd]:hover {
     height: 450px;
     background-color: rgba(35, 35, 36, 0.5);
     backdrop-filter: blur(20px);
-    display: none;
+    /* display: none; */
 }
 .reg-slider-pd{
     width: 170px;
@@ -423,6 +432,16 @@ input[type=submit-pd]:hover {
 .login-input-bottom-pd{
     margin-bottom: 65px;
 }
+.auth-mes-box-pd  {
+    width: 100%;
+    height: 45px;
+    /* background-color: salmon; */
+    padding-left: 470px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 12px;
+    color: salmon;
+    margin-top: -45px;
+}
 
 /*IPAD CSS*/
 
@@ -443,13 +462,14 @@ input[type=submit-pd]:hover {
     height: 100%;
     background-color: rgba(35, 35, 36, 0.5);
     backdrop-filter: blur(20px);
-    display: none;
+    /* display: none; */
 }
 .blue-blur-div-mb{
     width: 100%;
     height: 100%;
     background-color: rgba(114, 156, 239, 0.5);
     backdrop-filter: blur(20px);
+    display: none;
 }
 .reg-head-mb{
     width: 200px;
@@ -577,7 +597,7 @@ input[type=submit-pd]:hover {
     font-size: 18px;
     font-weight: normal;
 }
-input[type=submit-mb] {
+.submit-box-mb input[type=submit] {
     width: 280px;
     height: 45px;
     background-color:#F2F2F3;
@@ -613,4 +633,14 @@ input[type=submit-mb] {
 .back-home-icon-mb{
     margin-left: 15px;
 }
+.auth-mes-box-mb  {
+    width: 100%;
+    height: 45px;
+    /* background-color: salmon; */
+    padding-left: 70px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 12px;
+    color: salmon;
+}
+
 /*IPHONE CSS*/
