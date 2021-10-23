@@ -73,5 +73,22 @@ $(document).ready(function() {
         $(this).hide(600)
     }) 
  
+    $(".filter-button").click(function() {
+        var tabSelect = $(this).data("type");
+    
+        $(".filter-button").removeClass("genre-filter-active ");
+        $(this).addClass("genre-filter-active ")
+    
+        if(tabSelect == "all") {
+            $(".flight-card").slideDown()
+        } else {
+            $(".flight-card").hide();
+    
+            $("." + tabSelect).slideDown();
+        }
+       
+    
+    })
+
 
 })

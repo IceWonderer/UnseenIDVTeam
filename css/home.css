@@ -233,8 +233,10 @@
 }
 .top-movies {
     width: 1250px;
-    height: 292px;
+    height: auto;
     margin: 0 auto;
+    /* overflow-y: hidden;
+    white-space: nowrap; */
 }
 
 .more-movies {
@@ -253,12 +255,19 @@
 
 .movie {
     width: 213px;
-    height: 100%;
-    background-color: black;
+    height: 292px;
     border-radius: 50px;
     float: left;
     margin-left: 37px;
     margin-bottom: 20px;
+    cursor: pointer;
+    
+}
+.movie:hover {
+    margin-top: -10px;
+    height: 300px;
+    box-shadow: 0px 4px 4px rgba(114, 156, 239, 1);
+    transition: 0.6s;
 }
 .topMovieImage{
     width: 213px;
