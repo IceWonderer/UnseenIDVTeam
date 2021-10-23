@@ -53,9 +53,7 @@ body {
 .nav-buttons li:hover{
     color: #729CEF;
 }
-.nav-buttons-pd li:hover{
-    color: #729CEF;
-}
+
 .nav-buttons-mb li:hover{
     color: #729CEF;
 }
@@ -83,7 +81,6 @@ body {
     color: #232322;
 }
 
-
 .footer {
     width: 100%;
     height: 63px;
@@ -104,11 +101,13 @@ body {
 }
 
 
-/*IPAD CSS*/
+/* START I-PAD CSS//////////////////////////////////////////////////////////////////////////////*/
 .landing-page-ipad{
     width: 1024;
 }
-
+.nav-buttons-pd li:hover{
+    color: #729CEF;
+}
 .navigation-container-pd {
     width: 100%;
     height: 126px;
@@ -145,12 +144,15 @@ body {
     float: right;
     cursor: pointer;
 }
-/*IPAD CSS*/
+#home-button-pd li{
+    color: #729CEF;
+}
+/* END I-PAD CSS//////////////////////////////////////////////////////////////////////////////*/
 
 
 
 
-/* IPHONE */
+/* start I-PHONE CSS//////////////////////////////////////////////////////////////////////////*/
 .landing-page-iphone{
     width: 414px;
 }
@@ -192,6 +194,5 @@ body {
 #home-button li{
     color: #729CEF;
 }
-#home-button-pd li{
-    color: #729CEF;
-}
+
+/* END I-PHONE CSS////////////////////////////////////////////////////////////////////////////*/
