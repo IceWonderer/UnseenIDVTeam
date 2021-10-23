@@ -18,7 +18,7 @@ $(document).ready(function() {
           }
          
         for(i = 0 ; i <= getRndInteger(4,4); i++){
-            console.log("looped");
+           
             var IBG_backdrop_path = 'https://image.tmdb.org/t/p/w500/' + popular.results[i].backdrop_path 
             var CoverImage = 'https://image.tmdb.org/t/p/w500/' + popular.results[i].poster_path
            
@@ -40,7 +40,7 @@ $.getJSON(url2,function(movies){
           }
          
         for(i = 6 ; i <= getRndInteger(15,15); i++){
-            console.log("looped");
+            
             var IBG_backdrop_path = 'https://image.tmdb.org/t/p/w500/' + movies.results[i].backdrop_path 
             var CoverImage = 'https://image.tmdb.org/t/p/w500/' + movies.results[i].poster_path
             
@@ -50,4 +50,44 @@ $.getJSON(url2,function(movies){
         }
     });
 ////////////////////////////////////////////////////////////////////////////////////////////////end of movie library
-})
+
+////////////////////////////////////////////////////  IPAD   ////////////////////////////////////////////
+
+$.getJSON(url,function(popular){
+
+
+    function getRndInteger(min, max) {
+        return Math.floor(Math.random() * (max - min) ) + min;
+      }
+     
+    for(i = 0 ; i <= getRndInteger(3,3); i++){
+        var IBG_backdrop_path = 'https://image.tmdb.org/t/p/w500/' + popular.results[i].backdrop_path 
+        var CoverImage = 'https://image.tmdb.org/t/p/w500/' + popular.results[i].poster_path
+
+        $(".top-movies-box-pd").append(
+           "<div class = 'top-movie-pd' ><img src='"+ CoverImage +"'alt=' 'class= 'topMovieImage-pd'></div>"
+        );
+    }
+});
+
+////////////////////////////////////////////////////////////////////////////////////////////////start of movie library
+$.getJSON(url,function(popular){
+    
+
+    function getRndInteger(min, max) {
+        return Math.floor(Math.random() * (max - min) ) + min;
+      }
+     
+    for(i = 6 ; i <= getRndInteger(11,11); i++){
+
+        var IBG_backdrop_path = 'https://image.tmdb.org/t/p/w500/' + popular.results[i].backdrop_path 
+        var CoverImage = 'https://image.tmdb.org/t/p/w500/' + popular.results[i].poster_path
+
+        $(".movie-container-pd").append(
+           "<div class = 'movie-pd' ><img src='"+ CoverImage +"'alt=' 'class= 'topMovieImage-pd'></div>"
+        );
+    }
+});
+////////////////////////////////////////////////////////////////////////////////////////////////end of movie library
+
+});
