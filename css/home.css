@@ -266,7 +266,6 @@
 .movie:hover {
     margin-top: -10px;
     height: 300px;
-    box-shadow: 0px 4px 4px rgba(114, 156, 239, 1);
     transition: 0.6s;
 }
 .topMovieImage{

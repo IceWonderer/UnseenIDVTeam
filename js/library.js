@@ -45,7 +45,7 @@ $.getJSON(url2,function(movies){
             var CoverImage = 'https://image.tmdb.org/t/p/w500/' + movies.results[i].poster_path
             
             $(".movie-container").append(
-               "<div class = 'movie' ><img src='"+ CoverImage +"'alt=' 'class= 'topMovieImage'></div>"
+               "  <a href=../pages/individual_movie.html?id="+ movies.results[i] +"><div class = 'movie' ><img src='"+ CoverImage +"'alt=' 'class= 'topMovieImage'></div></a>"
             );
         }
     });

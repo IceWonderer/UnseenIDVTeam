@@ -65,6 +65,7 @@ $(document).ready(function() {
 
 
 
+    //Profile Picture Settings PopUp
     $(".profile-pic-box").click(function() {
        $(".options-block").show(600) 
     })
@@ -72,7 +73,10 @@ $(document).ready(function() {
     $(".options-block").mouseleave(function(){
         $(this).hide(600)
     }) 
+
+
  
+    //DESKTOP FILTER BUTTONs
     $(".filter-button").click(function() {
         var tabSelect = $(this).data("type");
     
@@ -80,15 +84,33 @@ $(document).ready(function() {
         $(this).addClass("genre-filter-active ")
     
         if(tabSelect == "all") {
-            $(".flight-card").slideDown()
+            $(".movie").slideDown()
         } else {
-            $(".flight-card").hide();
+            $(".movie").hide();
     
             $("." + tabSelect).slideDown();
         }
        
     
     })
+
+    //IPAD FILTER BUTTONS
+    $(".filter-button-pd").click(function() {
+        var tabSelect = $(this).data("type");
+    
+        $(".filter-button-pd").removeClass("genre-filter-active-pd");
+        $(this).addClass("genre-filter-active-pd")
+    
+        if(tabSelect == "all") {
+            $(".movie-pd").slideDown()
+        } else {
+            $(".movie-pd").hide();
+    
+            $("." + tabSelect).slideDown();
+        }
+    })
+
+
 
 
 })
