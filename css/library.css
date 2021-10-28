@@ -344,14 +344,22 @@
 .movie-mb {
     width: 180px;
     height: 290px;
-    background-color: dimgray;
     border-radius: 10px;
-    margin-left: 18px;
-    margin-top: 20px;
+    margin-right: 18px;
     float: left;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    display: block;
+    object-fit:cover;    
 }
 .first_movie-mb{
-    margin-left: 18px;
+    margin-left: 8px;
+}
+
+.topMovieImage-mb{
+    width: 200px;
+    height: 100%;
+    border-radius: 10px;
+    display: block;
+    object-fit:cover;
 }
 /*IPHONE CSS*/

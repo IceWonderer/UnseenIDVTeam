@@ -9,7 +9,7 @@ $(document).ready(function() {
           }
          
         for(i = 0 ; i <= getRndInteger(4,4); i++){
-            console.log("looped");
+       
             var IBG_backdrop_path = 'https://image.tmdb.org/t/p/w500/' + movies.results[i].backdrop_path 
             var CoverImage = 'https://image.tmdb.org/t/p/w500/' + movies.results[i].poster_path
            
@@ -31,7 +31,7 @@ $.getJSON(url2,function(movies){
       }
      
     for(i = 6; i <= getRndInteger(15,15); i++){
-        console.log("looped");
+    
         var IBG_backdrop_path = 'https://image.tmdb.org/t/p/w500/' + movies.results[i].backdrop_path 
         var CoverImage = 'https://image.tmdb.org/t/p/w500/' + movies.results[i].poster_path
        
@@ -47,50 +47,49 @@ $.getJSON(url2,function(movies){
 ////////////////////////////////////////////////////////////////////////////////////////////////end of more movies
 
 
-//////////////////////////////////////////////////// IPAD JS start ///////////////////////////////////////////////////////////
+////////////////////////////////////////////////// IPAD JS start ///////////////////////////////////////////////////////////
 
- ////////////////////////////////////////////////////////////////////////////////////////////////start of recommended 5  PD
-//  $.getJSON(url2,function(movies){
+ //////////////////////////////////////////////////////////////////////////////////////////////start of recommended 5  PD
+ $.getJSON(url2,function(movies){
 
-//     function getRndInteger(min, max) {
-//         return Math.floor(Math.random() * (max - min) ) + min;
-//       }
+    function getRndInteger(min, max) {
+        return Math.floor(Math.random() * (max - min) ) + min;
+      }
      
-//     for(i = 0 ; i <= getRndInteger(4,4); i++){
-//         console.log("looped");
-//         var IBG_backdrop_path = 'https://image.tmdb.org/t/p/w500/' + movies.results[i].backdrop_path 
-//         var CoverImage = 'https://image.tmdb.org/t/p/w500/' + movies.results[i].poster_path
+    for(i = 0 ; i <= getRndInteger(4,4); i++){
+        var IBG_backdrop_path = 'https://image.tmdb.org/t/p/w500/' + movies.results[i].backdrop_path 
+        var CoverImage = 'https://image.tmdb.org/t/p/w500/' + movies.results[i].poster_path
        
         
 
-//         $(".top-movies-pd").append(
-//            "<div class = 'movie-pd' ><img src='"+ CoverImage +"'alt=' 'class= 'topMovieImageipad'></div>"
-//         );
-//     }
-// });
-////////////////////////////////////////////////////////////////////////////////////////////////end of recommended 5  PD
+        $(".top-movies-pd").append(
+           "<div class = 'movies-pd' ><img src='"+ CoverImage +"'alt=' 'class= 'topMovieImageipad'></div>"
+        );
+    };
+});
+//////////////////////////////////////////////////////////////////////////////////////////////end of recommended 5  PD
 
 
-////////////////////////////////////////////////////////////////////////////////////////////////start of more movies  PD
-// $.getJSON(url2,function(movies){
+////////////////////////////////////////////////////////////////////////////////////////////////start of more movies  MB
+$.getJSON(url2,function(movies){
 
-// function getRndInteger(min, max) {
-//     return Math.floor(Math.random() * (max - min) ) + min;
-//   }
+function getRndInteger(min, max) {
+    return Math.floor(Math.random() * (max - min) ) + min;
+  }
  
-// for(i = 6; i <= getRndInteger(15,15); i++){
-//     console.log("looped");
-//     var IBG_backdrop_path = 'https://image.tmdb.org/t/p/w500/' + movies.results[i].backdrop_path 
-//     var CoverImage = 'https://image.tmdb.org/t/p/w500/' + movies.results[i].poster_path
+    for(i = 0; i <= getRndInteger(4,4); i++){
+
+     var IBG_backdrop_path = 'https://image.tmdb.org/t/p/w500/' + movies.results[i].backdrop_path 
+    var CoverImage = 'https://image.tmdb.org/t/p/w500/' + movies.results[i].poster_path
    
     
 
-//     $(".more-movies").append(
-//        "<div class = 'movie' ><img src='"+ CoverImage +"'alt=' 'class= 'topMovieImage'></div>"
-//     );
-// }
-// });
+    $(".top-movies-mb").append(
+       "<div class = 'movie-mb' ><img src='"+ CoverImage +"'alt=' 'class= 'topMovieImage'></div>"
+    );
+}
+});
 
 
-////////////////////////////////////////////////////////////////////////////////////////////////end of more movies PD
+////////////////////////////////////////////////////////////////////////////////////////////////end of more movies MB
 });
