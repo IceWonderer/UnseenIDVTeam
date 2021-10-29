@@ -42,8 +42,6 @@ $(document).ready(function() {
 
 
 
-
-
             $(".top-movies-box").append(
                 ` <a href=../pages/individual_movie.html?id=` + popular.results[i] + `><div class = 'top-movie' ><img src=` + CoverImage + ` 'alt=' 'class= 'topMovieImage'>
                <div class="movie-overlay">
@@ -125,30 +123,44 @@ $(document).ready(function() {
             var IBG_backdrop_path = 'https://image.tmdb.org/t/p/w500/' + popular.results[i].backdrop_path
             var CoverImage = 'https://image.tmdb.org/t/p/w500/' + popular.results[i].poster_path
 
+
             $(".top-movies-box-pd").append(
-                "<div class = 'top-movie-pd' ><img src='" + CoverImage + "'alt=' 'class= 'topMovieImage-pd'></div>"
+                ` <a href=../pages/individual_movie.html?id=` + popular.results[i] + `><div class = 'top-movie ' ><img src=` + CoverImage + ` 'alt=' 'class= 'topMovieImage'>
+               </div></a> `
             );
+
+
+
         }
     });
 
     ////////////////////////////////////////////////////////////////////////////////////////////////start of movie library PD
-    $.getJSON(url, function(popular) {
+    for (var i = 1; i < 10; i++){
+        const url2 = "https://api.themoviedb.org/3/movie/popular?api_key=0bf5587914a4404af70b0748372ba59f&language=en-US&page=" + i;
+    
+
+
+
+    $.getJSON(url2, function(movies) {
 
 
         function getRndInteger(min, max) {
             return Math.floor(Math.random() * (max - min)) + min;
         }
 
-        for (i = 6; i <= getRndInteger(11, 11); i++) {
+        for (i = 6; i <= getRndInteger(15, 15); i++) {
 
-            var IBG_backdrop_path = 'https://image.tmdb.org/t/p/w500/' + popular.results[i].backdrop_path
-            var CoverImage = 'https://image.tmdb.org/t/p/w500/' + popular.results[i].poster_path
+            var IBG_backdrop_path = 'https://image.tmdb.org/t/p/w500/' + movies.results[i].backdrop_path
+            var CoverImage = 'https://image.tmdb.org/t/p/w500/' + movies.results[i].poster_path
 
             $(".movie-container-pd").append(
-                "<div class = 'movie-pd' ><img src='" + CoverImage + "'alt=' 'class= 'topMovieImage-pd'></div>"
-            );
+                `  <a href=../pages/individual_movie.html?id=` + movies.results[i] + `><div  class = 'movie-pd  ${movies.results[i].genre_ids[0]}'   ><img src=` + CoverImage + ` 'alt=' 'class= 'topMovieImage-pd'></div></a> `
+                );
         }
     });
+    
+    }
+
     ////////////////////////////////////////////////////////////////////////////////////////////////end of movie library PD
 
     ////////////////////////////////////////////////////////////////////////////////////////////////start of movie library Phone
@@ -169,5 +181,38 @@ $(document).ready(function() {
             );
         }
     });
+
+
+
+
+
+    for (var i = 1; i < 10; i++){
+        const url2 = "https://api.themoviedb.org/3/movie/popular?api_key=0bf5587914a4404af70b0748372ba59f&language=en-US&page=" + i;
+    
+
+
+
+    $.getJSON(url2, function(movies) {
+
+
+        function getRndInteger(min, max) {
+            return Math.floor(Math.random() * (max - min)) + min;
+        }
+
+        for (i = 6; i <= getRndInteger(15, 15); i++) {
+
+            var IBG_backdrop_path = 'https://image.tmdb.org/t/p/w500/' + movies.results[i].backdrop_path
+            var CoverImage = 'https://image.tmdb.org/t/p/w500/' + movies.results[i].poster_path
+
+            $(".movie-container-mb").append(
+                `  <a href=../pages/individual_movie.html?id=` + movies.results[i] + `><div  class = 'movie-mb  ${movies.results[i].genre_ids[0]}'   ><img src=` + CoverImage + ` 'alt=' 'class= 'topMovieImage-mb'></div></a> `
+                );
+        }
+    });
+    
+    }
+
+
+
     ////////////////////////////////////////////////////////////////////////////////////////////////end of movie library Phone
 });
