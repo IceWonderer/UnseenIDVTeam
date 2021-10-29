@@ -195,4 +195,42 @@ body {
     color: #729CEF;
 }
 
+
+.menu-box-mb{
+    position: fixed;
+    z-index: 1;
+    padding-top: 80px;
+    top: 90px;
+    width: 414px;
+    height: calc(100vh - 70px);
+    background-color: rgba(35, 35, 36, 0.6);
+    backdrop-filter: blur(40px);
+    text-align: center;
+    transform: translateX(150%);
+    transition: 0.6s;
+}
+.menu-view-mb{
+    transform: translateX(0);
+    transition: 0.6s;
+}
+
+.menu-box-mb ul{
+    margin: 0;
+    padding: 0;
+    font-size: 28px;
+    font-family: 'Syncopate', sans-serif;
+}
+.menu-box-mb a{
+    color: black;
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+}
+.menu-box-mb a:hover{
+    color: #729CEF;
+    font-size: 32px;
+    transition: 0.3s;
+}
+
+
 /* END I-PHONE CSS////////////////////////////////////////////////////////////////////////////*/

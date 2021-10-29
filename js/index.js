@@ -112,22 +112,43 @@ $(document).ready(function() {
 
 
     //IPAD FILTER BUTTONS
+
     $(".filter-button-pd").click(function() {
-        var tabSelect = $(this).data("type");
+        var selectGenre = $(this).attr("data-id")
+
+        console.log(selectGenre)
 
         $(".filter-button-pd").removeClass("genre-filter-active-pd");
         $(this).addClass("genre-filter-active-pd")
 
-        if (tabSelect == "all") {
-            $(".movie-pd").slideDown()
-        } else {
-            $(".movie-pd").hide();
+        $(".movie-pd").css({
+            "display": "none"
+        })
 
-            $("." + tabSelect).slideDown();
+
+        if (selectGenre == "all") {
+            $(".movie-pd").css({
+                "display": "block"
+            })
+        } else {
+            $("." + selectGenre).css({
+                "display": "block"
+            })
         }
     })
 
 
+
+
+
+
+
+
+    //IPHONE MENU BAR
+
+    $(".menu-icon-mb").click(function() {
+        $(".menu-box-mb").toggleClass("menu-view-mb")
+    });
 
 
 })

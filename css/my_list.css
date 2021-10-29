@@ -526,6 +526,8 @@
     margin-top: -210px;
     border-radius: 20px;
     margin-left: -40px;
+    position: relative;
+    z-index: 0;
 }
 
 .movie-info-container-mb {
