@@ -77,21 +77,28 @@ $(document).ready(function() {
 
  
     //DESKTOP FILTER BUTTONs
+  
+
     $(".filter-button").click(function() {
-        var tabSelect = $(this).data("type");
-    
+        var selectGenre = $(this).attr("data-id")
+
         $(".filter-button").removeClass("genre-filter-active ");
         $(this).addClass("genre-filter-active ")
-    
-        if(tabSelect == "all") {
-            $(".movie").slideDown()
-        } else {
-            $(".movie").hide();
-    
-            $("." + tabSelect).slideDown();
+
+        $(".movie").css({
+            "display":"none"
+        })
+
+        if( $(".movie").attr("data-id") == selectGenre ){
+            $("[data-id=\""+selectGenre+"\"]").css({
+                "display":"block"
+            })
+        } else if( selectGenre == "all" ){
+            $(".movie").css({
+                "display":"block"
+            })
         }
-       
-    
+
     })
 
     //IPAD FILTER BUTTONS

@@ -11,17 +11,17 @@ $(document).ready(function() {
     $.getJSON(url2, function(result){
         console.log(result)
 
-        movie_name = result.results.title;
-        movie_cover = result.results.poster_path;
-        movie_description = result.results.overview;
+        // movie_name = result.results[i].title;
+        // movie_cover = result.results[i].poster_path;
+        // movie_description = result.results[i].overview;
 
-        movie_release = result.results.release_date;
-        movie_lang = result.results.original_language;
-        movie_rating = result.results.vote_average;
+        // movie_release = result.results[i].release_date;
+        // movie_lang = result.results[i].original_language;
+        // movie_rating = result.results[i].vote_average;
 
 
-        $(".title-div").text(movie_name);
-        $(".movie-cover").attr("src", movie_cover);
+        // $(".title-div").text(movie_name);
+        // $(".movie-cover").attr("src", movie_cover);
 
 
 

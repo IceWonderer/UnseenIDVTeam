@@ -4,9 +4,27 @@ $(document).ready(function() {
     const url = 'https://api.themoviedb.org/3/movie/popular?api_key=0bf5587914a4404af70b0748372ba59f&language=en-US&page=1';
     const url2 = 'https://api.themoviedb.org/3/discover/movie?api_key=0bf5587914a4404af70b0748372ba59f&language=en-US&sort_by=popularity.desc&include_adult=false&include_video=false&page=1&with_watch_monetization_types=flatrate';
 
-////////////////////////////////////////////////////////////////////////////////////////////////start of popular
-    $.getJSON(url,function(popular){
+    const urlGenre = 'https://api.themoviedb.org/3/genre/movie/list?api_key=0bf5587914a4404af70b0748372ba59f&language=en-US'
 
+
+    $.getJSON(urlGenre,url, function(result){
+        console.log(result)
+
+
+        for(i=0 ; i < result.genres.length; i++){
+
+            var genre = result.genres[i].id
+
+            console.log(genre)
+
+        }
+
+    })
+
+////////////////////////////////////////////////////////////////////////////////////////////////start of popular
+    $.getJSON(url,urlGenre,function(popular){
+
+        
         // var rdmHeader = Math.random(20)
 
         // $(".header-img").append(
@@ -25,8 +43,22 @@ $(document).ready(function() {
             
 
             $(".top-movies-box").append(
-               "<div class = 'top-movie' ><img src='"+ CoverImage +"'alt=' 'class= 'topMovieImage'></div>"
+               ` <a href=../pages/individual_movie.html?id=`+ popular.results[i] +`><div class = 'top-movie' ><img src=`+ CoverImage +` 'alt=' 'class= 'topMovieImage'>
+               <div class="movie-overlay">
+               <h1>`+popular.results[i].title+`</h1>
+               <h2>`+popular.results[i].vote_average+`<img class="fav-star" src="../img/my-list-pg-img/star-icon.svg" height="20"></h2>
+           </div>
+               </div></a> `
             );
+
+
+            $(".top-movie").hover(function() {
+                $(this).find(".movie-overlay").show();
+            }, function(){
+                $(this).find(".movie-overlay").hide();
+            })
+        
+        
         }
     });
 ////////////////////////////////////////////////////////////////////////////////////////////////end of popular
@@ -45,10 +77,29 @@ $.getJSON(url2,function(movies){
             var CoverImage = 'https://image.tmdb.org/t/p/w500/' + movies.results[i].poster_path
             
             $(".movie-container").append(
-               "  <a href=../pages/individual_movie.html?id="+ movies.results[i] +"><div class = 'movie' ><img src='"+ CoverImage +"'alt=' 'class= 'topMovieImage'></div></a>"
+               `  <a href=../pages/individual_movie.html?id=`+ movies.results[i] +`><div  data-id=${movies.results[i].genre_ids[0]} class = 'movie' ><img src=`+ CoverImage +` 'alt=' 'class= 'topMovieImage'>
+               <div class="movie-overlay">
+               <h1>`+movies.results[i].title+`</h1>
+               <h2>`+movies.results[i].vote_average+`<img class="fav-star" src="../img/my-list-pg-img/star-icon.svg" height="20"></h2>
+           </div>
+               </div></a> `
             );
+
+
+            $(".movie").hover(function() {
+                $(this).find(".movie-overlay").show();
+            }, function(){
+                $(this).find(".movie-overlay").hide();
+            })
+        
+
+
+
+
         }
     });
+
+
 ////////////////////////////////////////////////////////////////////////////////////////////////end of movie library 
 
 ////////////////////////////////////////////////////  IPAD   ////////////////////////////////////////////

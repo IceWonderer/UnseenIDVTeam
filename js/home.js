@@ -16,8 +16,18 @@ $(document).ready(function() {
             
 
             $(".top-movies").append(
-               "<div class = 'movie' ><img src='"+ CoverImage +"'alt=' 'class= 'topMovieImage'></div>"
+               ` <a href=pages/individual_movie.html?id=`+ movies.results[i] +`><div class = 'movie' ><img src=`+ CoverImage +` 'alt=' 'class= 'topMovieImage'>
+            </div></a>  `
             );
+
+
+            // $(".movie").hover(function() {
+            //     $(this).find(".movie-overlay").show();
+            // }, function(){
+            //     $(this).find(".movie-overlay").hide();
+            // })
+        
+
         }
     });
 ////////////////////////////////////////////////////////////////////////////////////////////////end of recommended 5
@@ -37,9 +47,9 @@ $.getJSON(url2,function(movies){
        
         
 
-        $(".more-movies").append(
-           "<div class = 'movie' ><img src='"+ CoverImage +"'alt=' 'class= 'topMovieImage'></div>"
-        );
+        // $(".more-movies").append(
+        //     ` <div class = 'movie' ><img src=`+ CoverImage +` 'alt=' class= 'topMovieImage'></div> `
+        // );
     }
 });
 
