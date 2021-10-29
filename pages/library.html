@@ -29,10 +29,10 @@
     <script src="../js/data.js"></script>
     <script src="../js/library.js"></script>
 
-      <!--bootstrap-->
-      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.min.js" integrity="sha384-skAcpIdS7UcVUC05LJ9Dxay8AXcDYfBJqt1CJ85S/CFujBsIzCIv+l9liuYLaMQ/" crossorigin="anonymous"></script>
-      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <!--bootstrap-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.min.js" integrity="sha384-skAcpIdS7UcVUC05LJ9Dxay8AXcDYfBJqt1CJ85S/CFujBsIzCIv+l9liuYLaMQ/" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 
     <!--google fonts link-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -49,31 +49,45 @@
         <div class="library-page-desktop d-none d-xxl-block">
 
             <div class="navigation-container">
-                <a href="../index.html"><div class="nav-logo"></div></a>
-    
-                  <div class="navigation-box">
+                <a href="../index.html">
+                    <div class="nav-logo"></div>
+                </a>
+
+                <div class="navigation-box">
                     <div class="nav-buttons">
-                     <a href="../index.html" ><li>Home</li></a>
-                     <a href="../pages/library.html"id="home-button"><li>Library</li></a>
-                     <a href="../pages/my_list.html"><li>My List</li></a>
-                    </div><!--nav-buttons--> 
-                </div><!--navigation-box-->
-       
-            
+                        <a href="../index.html">
+                            <li>Home</li>
+                        </a>
+                        <a href="../pages/library.html" id="home-button">
+                            <li>Library</li>
+                        </a>
+                        <a href="../pages/my_list.html">
+                            <li>My List</li>
+                        </a>
+                    </div>
+                    <!--nav-buttons-->
+                </div>
+                <!--navigation-box-->
+
+
                 <div class="search-box">
-                     <div class="search-bar">
-                    <input type="text" placeholder="Search" class="search">
-                </div><!--search-bar-->
-                </div><!--search-box-->
-         
-            </div><!--navigation-container-->
+                    <div class="search-bar">
+                        <input type="text" placeholder="Search" class="search">
+                    </div>
+                    <!--search-bar-->
+                </div>
+                <!--search-box-->
+
+            </div>
+            <!--navigation-container-->
 
 
-<div class="header-img">
-</div><!--header-img-->
+            <div class="header-img">
+            </div>
+            <!--header-img-->
 
- <div class="top-movies-box">
-        <!-- <div class="top-movie first_movie">
+            <div class="top-movies-box">
+                <!-- <div class="top-movie first_movie">
             <div class="movie-overlay">
                 <h1>Title</h1>
                 <h2>9<img class="fav-star" src="../img/my-list-pg-img/star-icon.svg" height="20"></h2>
@@ -83,143 +97,184 @@
         <div class="top-movie"></div>
         <div class="top-movie"></div>
         <div class="top-movie"></div> -->
-    </div><!--top-movies-->
+            </div>
+            <!--top-movies-->
 
-    <div class="empty-border1"></div>
+            <div class="empty-border1"></div>
 
-    <div class="filters-box">
-        <div class="filter-tabs">
-            <div class="filter-button genre-filter-active all-button" data-id="all">All</div>
-            <div class="filter-button animation-button" data-id="16" >Animation</div>
-            <div class="filter-button comedy-button" data-id="35" >Comedy</div>
-            <div class="filter-button sci-fi-button" data-id=878 >Sci-fi</div>
-            <div class="filter-button romance-button" data-id=10749 >Romance</div>
-            <div class="filter-button action-button" data-id=28 >Action</div>
-            <div class="filter-button thriller-button" data-id=53 >Thriller</div>
-            <div class="filter-button horror-button" data-id=27 >Horror</div>
-        </div><!--filter-tabs-->
-    </div><!--filters-box-->
+            <div class="filters-box">
+                <div class="filter-tabs">
+                    <div class="filter-button genre-filter-active all-button" data-id="all">All</div>
+                    <div class="filter-button animation-button" data-id=16>Animation</div>
+                    <div class="filter-button comedy-button" data-id=35>Comedy</div>
+                    <div class="filter-button sci-fi-button" data-id=878>Sci-fi</div>
+                    <div class="filter-button romance-button" data-id=10749>Romance</div>
+                    <div class="filter-button action-button" data-id=28>Action</div>
+                    <div class="filter-button thriller-button" data-id=53>Thriller</div>
+                    <div class="filter-button horror-button" data-id=27>Horror</div>
+                </div>
+                <!--filter-tabs-->
+            </div>
+            <!--filters-box-->
 
-    <div class="movie-container">
-        <!-- <div class="movie first_movie"></div>
+            <div class="movie-container">
+                <!-- <div class="movie first_movie"></div>
         <div class="movie"></div>
         <div class="movie"></div>
         <div class="movie"></div>
         <div class="movie"></div> -->
-    </div><!--movie-container-->
+            </div>
+            <!--movie-container-->
 
-    <div class="emptyclass2"></div>
+            <div class="emptyclass2"></div>
 
-    <div class="footer">
+            <div class="footer">
 
-        <div class="media">
-    
-     <div class="twitter media-icon">  <a href=""><img class="" src="../img/icons/media icons/twitter-blue-icon.svg" height="40.66"></a></div>
-     <div class="insta media-icon"> <a href=""><img class="" src="../img/icons/media icons/instagram-blue-icon.svg" height="40.66"></a></div>
-     <div class="facebook media-icon"> <a href=""><img class="" src="../img/icons/media icons/facebook-blue-icon.svg" height="40.66"></a></div>
-    
-        </div><!--media-->
-    
-    </div><!--footer-->
-    </div><!--library-page-desktop-->
+                <div class="media">
+
+                    <div class="twitter media-icon">
+                        <a href=""><img class="" src="../img/icons/media icons/twitter-blue-icon.svg" height="40.66"></a>
+                    </div>
+                    <div class="insta media-icon">
+                        <a href=""><img class="" src="../img/icons/media icons/instagram-blue-icon.svg" height="40.66"></a>
+                    </div>
+                    <div class="facebook media-icon">
+                        <a href=""><img class="" src="../img/icons/media icons/facebook-blue-icon.svg" height="40.66"></a>
+                    </div>
+
+                </div>
+                <!--media-->
+
+            </div>
+            <!--footer-->
+        </div>
+        <!--library-page-desktop-->
 
 
 
-<!--///////////////////////////////////////////////////////////I_PAD/////////////////////////////////////////////////////////////-->
+        <!--///////////////////////////////////////////////////////////I_PAD/////////////////////////////////////////////////////////////-->
 
 
 
-    <div class="library-page-ipad  d-none d-xl-block d-xxl-none">
+        <div class="library-page-ipad  d-none d-xl-block d-xxl-none">
 
-        <div class="navigation-container-pd">
-            <a href="../index.html"><div class="nav-logo-pd"></div></a>
+            <div class="navigation-container-pd">
+                <a href="../index.html">
+                    <div class="nav-logo-pd"></div>
+                </a>
 
-            <div class="navigation-box-pd">
-                <!-- <div id="active-filter-box"></div> -->
-                
-              <div class="nav-buttons-pd">
-               <a href="../index.html"><li>Home</li></a>
-               <a href="" id="home-button-pd"><li>Library</li></a>
-              <a href="../pages/my_list.html"><li>My List</li></a>
-              </div><!--nav-buttons--> 
+                <div class="navigation-box-pd">
+                    <!-- <div id="active-filter-box"></div> -->
 
-              <div class="search-icon-pd">
-              <div class="search-icon-pd"><img src="../img/icons/landing pg/search.svg" width="30"></div></div>
-          </div><!--navigation-box-->
-       </div><!--navigation-container-pd-->
+                    <div class="nav-buttons-pd">
+                        <a href="../index.html">
+                            <li>Home</li>
+                        </a>
+                        <a href="" id="home-button-pd">
+                            <li>Library</li>
+                        </a>
+                        <a href="../pages/my_list.html">
+                            <li>My List</li>
+                        </a>
+                    </div>
+                    <!--nav-buttons-->
 
-       <div class="header-img-pd">
-       </div><!--header-img-pd-->
+                    <div class="search-icon-pd">
+                        <div class="search-icon-pd"><img src="../img/icons/landing pg/search.svg" width="30"></div>
+                    </div>
+                </div>
+                <!--navigation-box-->
+            </div>
+            <!--navigation-container-pd-->
 
-       <div class="top-movies-box-pd">
-        <!-- <div class="top-movie-pd"></div>
+            <div class="header-img-pd">
+            </div>
+            <!--header-img-pd-->
+
+            <div class="top-movies-box-pd">
+                <!-- <div class="top-movie-pd"></div>
         <div class="top-movie-pd"></div>
         <div class="top-movie-pd"></div>
         <div class="top-movie-pd"></div>
         <div class="top-movie-pd"></div> -->
-       </div><!--top-movies-->
+            </div>
+            <!--top-movies-->
 
-    <div class="filters-box-pd">
-        <div class="filter-tabs-pd">
-            <div class="filter-button-pd genre-filter-active-pd all-button-pd" data-type="all">All</div>
-            <div class="filter-button-pd animation-button-pd" data-type="animation">Animation</div>
-            <div class="filter-button-pd comedy-button-pd" data-type="comedy">Comedy</div>
-            <div class="filter-button-pd sci-fi-button-pd" data-type="sci-fi">Sci-fi</div>
-            <div class="filter-button-pd romance-button-pd" data-type="romance">Romance</div>
-            <div class="filter-button-pd action-button-pd" data-type="action">Action</div>
-            <div class="filter-button-pd thriller-button-pd" data-type="thriller">Thriller</div>
-            <div class="filter-button-pd horror-button-pd" data-type="horror">Horror</div>
-        </div><!--filter-tabs-->
-    </div><!--filters-box-->
+            <div class="filters-box-pd">
+                <div class="filter-tabs-pd">
+                    <div class="filter-button-pd genre-filter-active-pd all-button-pd" data-type="all">All</div>
+                    <div class="filter-button-pd animation-button-pd" data-type="animation">Animation</div>
+                    <div class="filter-button-pd comedy-button-pd" data-type="comedy">Comedy</div>
+                    <div class="filter-button-pd sci-fi-button-pd" data-type="sci-fi">Sci-fi</div>
+                    <div class="filter-button-pd romance-button-pd" data-type="romance">Romance</div>
+                    <div class="filter-button-pd action-button-pd" data-type="action">Action</div>
+                    <div class="filter-button-pd thriller-button-pd" data-type="thriller">Thriller</div>
+                    <div class="filter-button-pd horror-button-pd" data-type="horror">Horror</div>
+                </div>
+                <!--filter-tabs-->
+            </div>
+            <!--filters-box-->
 
-    <div class="movie-container-pd">
-        <!-- <div class="movie-pd first_movie-pd"></div>
+            <div class="movie-container-pd">
+                <!-- <div class="movie-pd first_movie-pd"></div>
         <div class="movie-pd"></div>
         <div class="movie-pd"></div> -->
-    </div><!--movie-container-->
+            </div>
+            <!--movie-container-->
 
 
-</div><!--library-page-i-pad-->
-
-
-
-
-<!--///////////////////////////////////////////////////////////I_PHONE/////////////////////////////////////////////////////////////-->
+        </div>
+        <!--library-page-i-pad-->
 
 
 
-<div class="library-page-iphone d-block d-sm-none">
 
-    <div class="nav-container-mb">
-        <a href="./index.html"><div class="nav-logo-mb"></div></a>
+        <!--///////////////////////////////////////////////////////////I_PHONE/////////////////////////////////////////////////////////////-->
 
-        <div class="nav-icon-box-mb">
-            <div class="search-icon-mb">
-                <div class="search-icon-mb"><img src="../img/icons/landing pg/search.svg" width="30"></div></div>
 
-                <div class="menu-icon-mb">
-                    <div class="menu-icon-mb"><img src="../img/icons/landing pg/menu-icon.svg" width="45"></div>
-                </div><!--menu-icon-mb-->
 
-        </div><!--nav-icon-box-mb-->
-     </div><!--nav-container-mb-->
+        <div class="library-page-iphone d-block d-sm-none">
 
-     <div class="header-img-mb"></div>
+            <div class="nav-container-mb">
+                <a href="./index.html">
+                    <div class="nav-logo-mb"></div>
+                </a>
 
-     <div class="top-movies-box-mb">
-        <!-- <div class="top-movie-mb"></div>
+                <div class="nav-icon-box-mb">
+                    <div class="search-icon-mb">
+                        <div class="search-icon-mb"><img src="../img/icons/landing pg/search.svg" width="30"></div>
+                    </div>
+
+                    <div class="menu-icon-mb">
+                        <div class="menu-icon-mb"><img src="../img/icons/landing pg/menu-icon.svg" width="45"></div>
+                    </div>
+                    <!--menu-icon-mb-->
+
+                </div>
+                <!--nav-icon-box-mb-->
+            </div>
+            <!--nav-container-mb-->
+
+            <div class="header-img-mb"></div>
+
+            <div class="top-movies-box-mb">
+                <!-- <div class="top-movie-mb"></div>
         <div class="top-movie-mb"></div>
         <div class="top-movie-mb"></div>
         <div class="top-movie-mb"></div> -->
-    </div><!--top-movies-->
+            </div>
+            <!--top-movies-->
 
-    </div><!--movie-container-->
+        </div>
+        <!--movie-container-->
 
 
-</div><!--library-page-mb-->
+    </div>
+    <!--library-page-mb-->
 
 
-    </div><!--container-fluid-->
+    </div>
+    <!--container-fluid-->
 
 </body>
 
