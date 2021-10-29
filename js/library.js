@@ -52,7 +52,6 @@ $(document).ready(function() {
 
 
             $(".top-movies-box").append(
-<<<<<<< HEAD
                 ` <a href=../pages/individual_movie.html?id=` + popular.results[i] + `><div class = 'top-movie' ><img src=` + CoverImage + ` 'alt=' 'class= 'topMovieImage'>
 >>>>>>> parent of b3ea85d (Individual Page)
                <div class="movie-overlay">
@@ -71,13 +70,6 @@ $(document).ready(function() {
                 }
             });
             ////////////////////////////////////////////////////////////////////////////////////////////////end of popular
-=======
-                "<div class = 'top-movie' ><img src='" + CoverImage + "'alt=' 'class= 'topMovieImage'></div>"
-            );
-        }
-    });
-    ////////////////////////////////////////////////////////////////////////////////////////////////end of popular
->>>>>>> parent of b0c4b1e (Movie card UI)
 
             ////////////////////////////////////////////////////////////////////////////////////////////////start of movie library
             for (var i = 1; i < 10; i++) {
@@ -95,7 +87,6 @@ $(document).ready(function() {
                         var IBG_backdrop_path = 'https://image.tmdb.org/t/p/w500/' + movies.results[i].backdrop_path
                         var CoverImage = 'https://image.tmdb.org/t/p/w500/' + movies.results[i].poster_path
 
-<<<<<<< HEAD
                         $(".movie-container").append(
                             `  <a href=individual_movie.html?id=` + movies.results[i].id + `><div  class = 'movie  ${movies.results[i].genre_ids[0]}'   ><img src=` + CoverImage + ` 'alt=' 'class= 'topMovieImage'>
                     <div class="movie-overlay">
@@ -119,11 +110,6 @@ $(document).ready(function() {
                 });
 
 
-=======
-                $(".movie-container").append(
-                    "  <a href='individual_movie.html?id=" + movies.results[i].id + "'><div class = 'movie  " + movies.results[i].genre_ids[0] + " ' ><img src='" + CoverImage + "'alt=' 'class= 'topMovieImage'></div></a>"
-                );
->>>>>>> parent of b0c4b1e (Movie card UI)
             }
 
             ////////////////////////////////////////////////////////////////////////////////////////////////end of movie library 
@@ -147,7 +133,6 @@ $(document).ready(function() {
                </div></a> `
                     );
 
-<<<<<<< HEAD
 
 
 <<<<<<< HEAD
@@ -176,33 +161,6 @@ $(document).ready(function() {
             );
         }
     });
-=======
-            $(".top-movies-box-pd").append(
-                "<div class = 'top-movie-pd' ><img src='" + CoverImage + "'alt=' 'class= 'topMovieImage-pd'></div>"
-            );
-        }
-    });
-
-    ////////////////////////////////////////////////////////////////////////////////////////////////start of movie library PD
-    $.getJSON(url, function(popular) {
-
-
-        function getRndInteger(min, max) {
-            return Math.floor(Math.random() * (max - min)) + min;
-        }
-
-        for (i = 6; i <= getRndInteger(11, 11); i++) {
-
-            var IBG_backdrop_path = 'https://image.tmdb.org/t/p/w500/' + popular.results[i].backdrop_path
-            var CoverImage = 'https://image.tmdb.org/t/p/w500/' + popular.results[i].poster_path
-
-            $(".movie-container-pd").append(
-                "<div class = 'movie-pd' ><img src='" + CoverImage + "'alt=' 'class= 'topMovieImage-pd'></div>"
-            );
-        }
-    });
-    ////////////////////////////////////////////////////////////////////////////////////////////////end of movie library PD
->>>>>>> parent of b0c4b1e (Movie card UI)
 
     ////////////////////////////////////////////////////////////////////////////////////////////////start of movie library PD
     $.getJSON(url, function(popular) {
@@ -231,7 +189,6 @@ $(document).ready(function() {
             var IBG_backdrop_path = 'https://image.tmdb.org/t/p/w500/' + popular.results[i].backdrop_path
             var CoverImage = 'https://image.tmdb.org/t/p/w500/' + popular.results[i].poster_path
 
-<<<<<<< HEAD
             $(".movie-container-pd").append(
                 "<div class = 'movie-pd' ><img src='" + CoverImage + "'alt=' 'class= 'topMovieImage-pd'></div>"
             );
@@ -296,13 +253,6 @@ $(document).ready(function() {
             );
         }
     });
-=======
-            $(".top-movies-box-mb").append(
-                "<div class = 'top-movie-mb' ><img src='" + CoverImage + "'alt=' 'class= 'topMovieImage-mb'></div>"
-            );
-        }
-    });
->>>>>>> parent of b0c4b1e (Movie card UI)
     ////////////////////////////////////////////////////////////////////////////////////////////////end of movie library Phone
 });
 >>>>>>> parent of b3ea85d (Individual Page)
