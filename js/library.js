@@ -50,6 +50,7 @@ $(document).ready(function() {
 
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 
             $(".top-movies-box").append(
@@ -57,6 +58,10 @@ $(document).ready(function() {
                 ` <a href=../pages/individual_movie.html?id=` + popular.results[i] + `><div class = 'top-movie' ><img src=` + CoverImage + ` 'alt=' 'class= 'topMovieImage'>
 >>>>>>> parent of b3ea85d (Individual Page)
 =======
+=======
+
+
+>>>>>>> parent of b3ea85d (Individual Page)
             $(".top-movies-box").append(
                 ` <a href=../pages/individual_movie.html?id=` + popular.results[i] + `><div class = 'top-movie' ><img src=` + CoverImage + ` 'alt=' 'class= 'topMovieImage'>
 >>>>>>> parent of f087a4a (Merge branch 'main' of https://github.com/IceWonderer/UnseenIDVTeam into main)
@@ -180,18 +185,14 @@ $(document).ready(function() {
             var CoverImage = 'https://image.tmdb.org/t/p/w500/' + popular.results[i].poster_path
 >>>>>>> parent of f087a4a (Merge branch 'main' of https://github.com/IceWonderer/UnseenIDVTeam into main)
 
-
             $(".top-movies-box-pd").append(
-                ` <a href=../pages/individual_movie.html?id=` + popular.results[i] + `><div class = 'top-movie ' ><img src=` + CoverImage + ` 'alt=' 'class= 'topMovieImage'>
-               </div></a> `
+                "<div class = 'top-movie-pd' ><img src='" + CoverImage + "'alt=' 'class= 'topMovieImage-pd'></div>"
             );
-
-
-
         }
     });
 
     ////////////////////////////////////////////////////////////////////////////////////////////////start of movie library PD
+<<<<<<< HEAD
     for (var i = 1; i < 10; i++){
         const url2 = "https://api.themoviedb.org/3/movie/popular?api_key=0bf5587914a4404af70b0748372ba59f&language=en-US&page=" + i;
     
@@ -240,6 +241,9 @@ $(document).ready(function() {
 =======
     $.getJSON(url2, function(movies) {
 >>>>>>> parent of f087a4a (Merge branch 'main' of https://github.com/IceWonderer/UnseenIDVTeam into main)
+=======
+    $.getJSON(url, function(popular) {
+>>>>>>> parent of b3ea85d (Individual Page)
 
 
         function getRndInteger(min, max) {
@@ -248,19 +252,24 @@ $(document).ready(function() {
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 }
 =======
         for (i = 6; i <= getRndInteger(15, 15); i++) {
 >>>>>>> parent of f087a4a (Merge branch 'main' of https://github.com/IceWonderer/UnseenIDVTeam into main)
+=======
+        for (i = 6; i <= getRndInteger(11, 11); i++) {
+>>>>>>> parent of b3ea85d (Individual Page)
 
-            var IBG_backdrop_path = 'https://image.tmdb.org/t/p/w500/' + movies.results[i].backdrop_path
-            var CoverImage = 'https://image.tmdb.org/t/p/w500/' + movies.results[i].poster_path
+            var IBG_backdrop_path = 'https://image.tmdb.org/t/p/w500/' + popular.results[i].backdrop_path
+            var CoverImage = 'https://image.tmdb.org/t/p/w500/' + popular.results[i].poster_path
 
             $(".movie-container-pd").append(
-                `  <a href=../pages/individual_movie.html?id=` + movies.results[i] + `><div  class = 'movie-pd  ${movies.results[i].genre_ids[0]}'   ><img src=` + CoverImage + ` 'alt=' 'class= 'topMovieImage-pd'></div></a> `
-                );
+                "<div class = 'movie-pd' ><img src='" + CoverImage + "'alt=' 'class= 'topMovieImage-pd'></div>"
+            );
         }
     });
+<<<<<<< HEAD
     
     }
 
@@ -280,6 +289,8 @@ $(document).ready(function() {
     ////////////////////////////////////////////////////////////////////////////////////////////////end of movie library PD
 >>>>>>> parent of b3ea85d (Individual Page)
 =======
+=======
+>>>>>>> parent of b3ea85d (Individual Page)
     ////////////////////////////////////////////////////////////////////////////////////////////////end of movie library PD
 >>>>>>> parent of f087a4a (Merge branch 'main' of https://github.com/IceWonderer/UnseenIDVTeam into main)
 
@@ -304,6 +315,7 @@ $(document).ready(function() {
             );
         }
     });
+<<<<<<< HEAD
 >>>>>>> parent of f087a4a (Merge branch 'main' of https://github.com/IceWonderer/UnseenIDVTeam into main)
 
 
@@ -358,6 +370,8 @@ $(document).ready(function() {
 });
 >>>>>>> parent of b3ea85d (Individual Page)
 =======
+=======
+>>>>>>> parent of b3ea85d (Individual Page)
     ////////////////////////////////////////////////////////////////////////////////////////////////end of movie library Phone
 });
 >>>>>>> parent of f087a4a (Merge branch 'main' of https://github.com/IceWonderer/UnseenIDVTeam into main)
